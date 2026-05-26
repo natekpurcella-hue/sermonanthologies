@@ -1,5 +1,4 @@
 # Following Hard After God
-**Author:** AW Tozer
 
 ## Introduction
 "My soul followeth hard after thee: thy right hand upholdeth me." — Psalm 63:8

@@ -719,4 +719,3 @@ LECTURE VII.
    the Spirit? If I could see this church filled with the Spirit, I would
    ask nothing more to move this whole mighty mass of minds. Not two weeks
    would pass before the revival would spread all over this city.
-     __________________________________________________________________

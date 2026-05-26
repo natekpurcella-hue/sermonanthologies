@@ -136,14 +136,14 @@ LECTURE IX.
    impression full upon all around them. It is easy to see that precept
    without example on this point will do no good. All the arguments in the
    world will not convince mankind that you really believe this, unless
-   you live as if you believed it. Your reasoning may be unanswerable, but
-   if you do not live accordingly, your practice will defeat your
-   arguments. They will say you are an ingenious sophist, or an acute
-   reasoner, and perhaps admit that they cannot answer you; but then they
-   will say, it is evident that your reasoning is all false, and that you
-   know it is false, because your life contradicts your theory. Or that,
-   if it is true, you do not believe it, at any rate. And so all the
-   influence of your testimony goes to the other side.
+   you live accordingly. Your reasoning may be unanswerable, but if you do
+   not live accordingly, your practice will defeat your arguments. They
+   will say you are an ingenious sophist, or an acute reasoner, and perhaps
+   admit that they cannot answer you; but then they will say, it is evident
+   that your reasoning is all false, and that you know it is false, because
+   your life contradicts your theory. Or that, if it is true, you do not
+   believe it, at any rate. And so all the influence of your testimony
+   goes to the other side.
 
    2. The vanity and unsatisfying nature of the things of this world. You
    are to testify this by your life. The failure in this is the great
@@ -340,7 +340,7 @@ LECTURE IX.
    contradict the Gospel. Some people always show a bad spirit, ever ready
    to put the worst construction on what is done, and take fire at any
    little thing. This shows a great want of that charity which "hopeth all
-   things, believeth all things, endureth all things," But if a man always
+   things, bereveth all things, endureth all things," But if a man always
    shows meekness under injuries, it will confound gainsaying. Nothing
    makes so solemn an impression upon sinners, and bears down with such a
    tremendous weight on their consciences, as to see a Christian,
@@ -585,7 +585,7 @@ LECTURE IX.
    the ravings of a disturbed mind? If they are true, do you recognize the
    fact that they have reference to you? You say, perhaps, "I wish some of
    the rich churches could hear it!" Why, I am not preaching to them, I am
-   preaching to you. My responsibility is to you, and my fruits must come
+   preaching to you. My responsibility is to you, and my feelings must come
    from you. Now are you contradicting it? What is the testimony on the
    leaf of the record that is now sealed for the judgment concerning this
    day? Have you manifested a sympathy with the Son of God, when his heart
@@ -609,4 +609,3 @@ LECTURE IX.
    they make a profession and live a moral life, that is religion enough.
    Oh, what a doctrine of devils is that! Enough to ruin the whole human
    race.
-     __________________________________________________________________

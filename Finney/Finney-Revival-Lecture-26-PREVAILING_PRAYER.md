@@ -448,7 +448,7 @@ LECTURE IV.
    and went out into the midst of the city, and cried with a loud and
    bitter cry. And why, then, should persons be thought to be distracted,
    when they cannot forbear crying out at the consideration of the misery
-   of those that are going to eternal destruction?" [2]
+   of those that are going to eternal destruction?"
 
    I have read this to show that this thing was common in the great
    revivals of those days. It has always been so in all great revivals,
@@ -785,7 +785,3 @@ LECTURE IV.
    confessed them, and got them all out of the way? Can you pray now? And
    will you join and offer prevailing prayer, that the Spirit of God may
    come down here?
-     __________________________________________________________________
-
-   [2] Edwards' Works. vol. iv. p. 85. New York edition.
-     __________________________________________________________________

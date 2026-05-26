@@ -89,7 +89,7 @@ LECTURE I.
    It is very desirable it should be so. It is very desirable that the
    church should go on steadily in a course of obedience without these
    excitements. Such excitements are liable to injure the health. Our
-   nervous system is so strung that any powerful excitement, if long
+   nervous system is so string that any powerful excitement, if long
    continued, injures our health and unfits us for duty. If religion is
    ever to have a pervading influence in the world, it cannot be so; this
    spasmodic religion must be done away. Then it will be uncalled for.
@@ -280,7 +280,7 @@ LECTURE I.
    They will be in an agony for individuals whom they want to have
    saved--their friends, relations, enemies. They will not only be urging
    them to give their hearts to God, but they will carry them to God in
-   the arms of faith, and with strong crying and tears beseech God to have
+   the arms of faith, and with strong crying and tears besch God to have
    mercy on them, and save their souls from endless burnings.
 
    4. A revival breaks the power of the world and of sin over Christians.
@@ -531,4 +531,3 @@ LECTURE I.
    will do your duty as fast as you learn what it is, and to pray that He
    will pour out his Spirit upon this church and upon all the city this
    winter.
-     __________________________________________________________________

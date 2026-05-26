@@ -404,7 +404,7 @@ LECTURE V.
    to him for a particular purpose. His prayer appears to have been
    selfish, or at least praying against a mere personal influence. This
    was not any personal suffering that retarded his usefulness, but on the
-   contrary it was given him to increase his usefulness by keeping him
+   conary it was given him to increase his usefulness by keeping him
    humble; and because on some account he found it inconvenient and
    mortifying, he set himself to pray out of his own heart, evidently
    without being led to it by the Spirit of God. But did Paul pray in
@@ -500,7 +500,7 @@ LECTURE V.
    Watch and pray, and follow it up, or you will never pray the prayer of
    faith.
 
-   2. Entire consecration to God is indispensable to the prayer of faith.
+   3. Entire consecration to God is indispensable to the prayer of faith.
    You must live a holy life, and consecrate all to God--your time,
    talents, influence--all you have, and all you are, to be his entirely.
    Read the lives of pious men, and you will be struck with this fact:
@@ -643,41 +643,8 @@ LECTURE V.
    you ever prayed till your mind was assured the blessing would
    come--till you felt that rest in God, that confidence, as perfect as if
    you saw God come down from heaven to give it to you? If not, you ought
-   to examine your foundation. How can you live without praying in faith
-   at all? How do you live in view of your children, while you have no
-   assurance whatever that they will be converted? One would think you
-   would go deranged. I knew a father at the West; he was a good man, but
-   he had erroneous views respecting the prayer of faith; and his whole
-   family of children were grown up and not one of them converted. At
-   length his son sickened and seemed about to die. The father prayed, but
-   the son grew worse and seemed sinking into the grave without hope. The
-   father prayed till his anguish was unutterable. He went at last and
-   prayed--(there seemed no prospect of his son's life)--but he poured out
-   his soul as if he would not be denied, till at length he got an
-   assurance that his son would not only live, but be converted; and not
-   only this one, but his whole family, would be converted to God. He came
-   into the house and told his family his son would not die. They were
-   astonished at him. "I tell you," says he, "he won't die. And no child
-   of mine will ever die in his sins." That man's children were all
-   converted years ago.
+   to examine your foundation. How can you live without praying in faith at all? How do you live in view of your children, while you have no assurance whatever that they will be converted? One would think you would go deranged. I knew a father at the West; he was a good man, but he had erroneous views respecting the prayer of faith; and his whole family of children were grown up and not one of them converted. At length his son sickened and seemed about to die. The father prayed, but the son grew worse and seemed sinking into the grave without hope. The father prayed till his anguish was unutterable. He went at last and prayed--(there seemed no prospect of his son's life)--but he poured out his soul as if he would not be denied, till at length he got an assurance that his son would not only live, but be converted; and not only this one, but his whole family, would be converted to God. He came into the house and told his family his son would not die. They were astonished at him. "I tell you," says he, "he won't die. And no child of mine will ever die in his sins." That man's children were all converted years ago.
 
-   What do you think of that? Was that fanaticism? If you believe so, it
-   is because you know nothing about the matter. Do you pray so? Do you
-   live in such a manner that you can offer such prayer for your children?
-   I know that the children of professors may sometimes be converted in
-   answer to the prayers of somebody else. But ought you to live so? Dare
-   you trust to the prayers of others when God calls you to sustain this
-   most important relation to your children?
+   What do you think of that? Was that fanaticism? If you believe so, it is because you know nothing about the matter. Do you pray so? Do you live in such a manner that you can offer such prayer for your children? I know that the children of professors may sometimes be converted in answer to the prayers of somebody else. But ought you to live so? Dare you trust to the prayers of others when God calls you to sustain this most important relation to your children?
 
-   Finally--See what combined effort is made to dispose of the Bible. The
-   wicked are for throwing away the threatenings of the Bible, and the
-   church the promises. And what is there left? Between them, they leave
-   the Bible a blank. I say it in love: What are our Bibles good for if we
-   do not lay hold on their precious promises, and use them as the ground
-   of our faith when we pray for the blessing of God? You had better send
-   your Bibles to the heathen, where they will do some good, if you are
-   not going to believe and use them. I have no evidence that there is
-   much of this prayer now in this church or in this city. And what will
-   become of it? What will become of your children? your neighbors? the
-   wicked?
-     __________________________________________________________________
+   Finally--See what combined effort is made to dispose of the Bible. The wicked are for throwing away the threatenings of the Bible, and the church the promises. And what is there left? Between them, they leave the Bible a blank. I say it in love: What are our Bibles good for if we do not lay hold on their precious promises, and use them as the ground of our faith when we pray for the blessing of God? You had better send your Bibles to the heathen, where they will do some good, if you are not going to believe and use them. I have no evidence that there is much of this prayer now in this church or in this city. And what will become of it? What will become of your children? your neighbors? the wicked?

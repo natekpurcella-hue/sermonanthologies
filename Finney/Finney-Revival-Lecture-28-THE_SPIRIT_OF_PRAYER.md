@@ -659,7 +659,7 @@ LECTURE VI.
 
    (2.) As important as your sanctification. Without such a spirit you
    will not be sanctified, you will not understand the Bible, you will not
-   know how to apply it to your case. I want you to feel the importance of
+   know how to apply it to your case. I want you feel the importance of
    having God with you all the time. If you live as you ought, he says he
    will come unto you, and make his abode with you, and sup with you, and
    you with him.
@@ -719,39 +719,6 @@ LECTURE VI.
    soul I abhor all affectation of feeling where there is none, and all
    attempts to work one's self up into feeling by groans. But I feel bound
    to defend the position that there is such a thing as being in a state
-   of mind in which there is but one way to keep from groaning; and that
-   is, by resisting the Holy Ghost. I was once present where this subject
-   was discussed. It was said that groaning ought to be discountenanced.
-   The question was asked, whether God could not produce such a state of
-   feeling that to abstain from groaning was impossible? and the answer
-   was, "Yes, but he never does." Then the apostle Paul was egregiously
-   deceived when he wrote about groanings that cannot be uttered. Edwards
-   was deceived when he wrote his book upon revivals. Revivals are all in
-   the dark. Now, no man who reviews the history of the church will adopt
-   such a sentiment. I do not like this attempt to shut out, or stifle, or
-   keep down, or limit the spirit of prayer. I would sooner cut off my
-   right hand than rebuke the spirit of prayer, as I have heard of its
-   being done by saying, "Do not let me hear any more groaning."
+   of mind in which there is but one way to keep from groaning; and that is, by resisting the Holy Ghost. I was once present where this subject was discussed. It was said that groaning ought to be discountenanced. The question was asked, whether God could not produce such a state of feeling that to abstain from groaning was impossible? and the answer was, "Yes, but he never does." Then the apostle Paul was egregiously deceived when he wrote about groanings that cannot be uttered. Edwards was deceived when he wrote his book upon revivals. Revivals are all in the dark. Now, no man who reviews the history of the church will adopt such a sentiment. I do not like this attempt to shut out, or stifle, or keep down, or limit the spirit of prayer. I would sooner cut off my right hand than rebuke the spirit of prayer, as I have heard of its being done by saying, "Do not let me hear any more groaning."
 
-   But then, I hardly know where to conclude this subject. I should like
-   to discuss it a month, and till the whole church could understand it,
-   so as to pray the prayer of faith. Beloved, I want to ask you if you
-   believe all this? Or do you wonder that I should talk so? Perhaps some
-   of you have had some glimpses of these things. Now, will you give
-   yourselves up to prayer, and live so as to have the spirit of prayer,
-   and have the spirit with you all the time? Oh, for a praying church! I
-   once knew a minister who had a revival fourteen winters in succession.
-   I did not know how to account for it till I saw one of his members get
-   up in a prayer meeting and make a confession. "Brethren," said he, "I
-   have been long in the habit of praying every Saturday night till after
-   midnight, for the descent of the Holy Ghost among us. And now,
-   brethren," and he began to weep, "I confess that I have neglected it
-   for two or three weeks." The secret was out. That minister had a
-   praying church. Brethren, in my present state of health, I find it
-   impossible to pray as much as I have been in the habit of doing, and
-   continue to preach. It overcomes my strength. Now, shall I give myself
-   up to prayer, and stop preaching? That will not do. Now, will not you,
-   who are in health, throw yourselves into this work, and bear this
-   burden, and lay yourselves out in prayer, till God will pour out his
-   blessing upon us?
-     __________________________________________________________________
+   But then, I hardly know where to conclude this subject. I should like to discuss it a month, and till the whole church could understand it, so as to pray the prayer of faith. Beloved, I want to ask you if you believe all this? Or do you wonder that I should talk so? Perhaps some of you have had some glimpses of these things. Now, will you give yourselves up to prayer, and live so as to have the spirit of prayer, and have the spirit with you all the time? Oh, for a praying church! I once knew a minister who had a revival fourteen winters in succession. I did not know how to account for it till I saw one of his members get up in a prayer meeting and make a confession. "Brethren," said he, "I have been long in the habit of praying every Saturday night till after midnight, for the descent of the Holy Ghost among us. And now, brethren," and he began to weep, "I confess that I have neglected it for two or three weeks." The secret was out. That minister had a praying church. Brethren, in my present state of health, I find it impossible to pray as much as I have been in the habit of doing, and continue to preach. It overcomes my strength. Now, shall I give myself up to prayer, and stop preaching? That will not do. Now, will not you, who are in health, throw yourselves into this work, and bear this burden, and lay yourselves out in prayer, till God will pour out his blessing upon us?

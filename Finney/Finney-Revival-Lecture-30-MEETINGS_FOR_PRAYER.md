@@ -625,30 +625,6 @@ LECTURE VIII.
    impenitent sinners when they have them right before their eyes. I have
    know female prayer meetings exclude sinners from the meeting. And the
    reason was, they were so proud they were ashamed to pray before
-   sinners. What a spirit! Such prayers will do no good. They insult God.
-   You have not done enough, by any means, when you have gone to the
-   prayer meeting yourself. You cannot pray, if you have invited no sinner
-   to go. If all the church have neglected their duty so, and have gone to
-   the prayer meeting, and taken no sinners along with them, no subjects
-   of prayer--what have they come for?
+   sinners. What a spirit! Such prayers will do no good. They insult God. You have not done enough, by any means, when you have gone to the prayer meeting yourself. You cannot pray, if you have invited no sinner to go. If all the church have neglected their duty so, and have gone to the prayer meeting, and taken no sinners along with them, no subjects of prayer--what have they come for?
 
-   9. The great object of all the means of grace is to aim directly at the
-   conversion of sinners. You should pray that they may be converted
-   there. Not pray that they may be awakened and convicted, but pray that
-   they may be converted on the spot. No one should either pray or make
-   any remarks, as if he expected a single sinner would go away without
-   giving his heart to God. You should all make the impression on his
-   mind, that NOW he must submit. And if you do this, while you are yet
-   speaking God will hear. If Christians make it manifest that they have
-   really set their hearts on the conversions of sinners, and are bent
-   upon it, and pray as they ought, there would rarely be a prayer meeting
-   held without souls being converted, and sometimes every sinner in the
-   room. That is the very time, if ever, that sinners should be converted
-   in answer to those prayers. I do not doubt but that you may have
-   sinners converted in every sectional prayer meeting, if you do your
-   duty. Take them there, take your families, your friends, or your
-   neighbors there with that design, give them the proper instruction, if
-   they need instruction, and pray for them as you ought, and you will
-   save their souls. Rely upon it, if you do your duty, in a right manner,
-   God will not keep back his blessing, and the work will be done.
-     __________________________________________________________________
+   9. The great object of all the means of grace is to aim directly at the conversion of sinners. You should pray that they may be converted there. Not pray that they may be awakened and convicted, but pray that they may be converted on the spot. No one should either pray or make any remarks, as if he expected a single sinner would go away without giving his heart to God. You should all make the impression on his mind, that NOW he must submit. And if you do this, while you are yet speaking God will hear. If Christians make it manifest that they have really set their hearts on the conversions of sinners, and are bent upon it, and pray as they ought, there would rarely be a prayer meeting held without souls being converted, and sometimes every sinner in the room. That is the very time, if ever, that sinners should be converted in answer to those prayers. I do not doubt but that you may have sinners converted in every sectional prayer meeting, if you do your duty. Take them there, take your families, your friends, or your neighbors there with that design, give them the proper instruction, if they need instruction, and pray for them as you ought, and you will save their souls. Rely upon it, if you do your duty, in a right manner, God will not keep back his blessing, and the work will be done.

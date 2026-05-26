@@ -166,7 +166,7 @@ LECTURE II.
    church in Pennsylvania, that was formerly flourishing, but neglected
    revivals, and it became so reduced that the pastor had to send to a
    neighboring church for a ruling elder when he administered the
-   communion. [1]
+   communion.
 
    5. Nothing but a Revival of Religion can prevent the means of grace
    from doing a great injury to the ungodly. Without a revival, they will
@@ -338,7 +338,7 @@ LECTURE II.
    obscure members of the church, and you will always find that somebody
    had been praying for a revival, and was expecting it--some man or woman
    had been agonizing in prayer, for the salvation of sinners, until they
-   gained the blessing. It may have found the minister and the body of the
+   gained the blessing. It may find the minister and the body of the
    church fast asleep, and they would wake up all of a sudden, like a man
    just rubbing his eyes open, and running round the room pushing things
    over, and wondering where all this excitement came from. But though few
@@ -518,8 +518,3 @@ LECTURE II.
    would you answer, Yes? "When shall it begin?" would you answer, Let it
    begin to-night--let it begin here--let it begin in my heart NOW? Would
    you dare to say so to God, if you should hear his voice to-night?
-     __________________________________________________________________
-
-   [1] Why not, in such a case, let any member of the church, male or
-   female, distribute the elements? Is it indispensable to have an elder?
-     __________________________________________________________________

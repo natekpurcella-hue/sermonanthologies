@@ -1,15 +1,6 @@
-SERMON XVI.
+# PREFACE
 
-                          The Means of Grace.
-
-  Malachi iii. 7. _Ye are gone away from mine ordinances, and have
-    not kept them._
-
-  Illustration: (‡ decoration)
-
-                     SERMONS ON SEVERAL OCCASIONS.
-
-                            To the READER.
+## To the READER.
 
 1. I HAVE had a desire for several years, if God should spare me
 a little longer, to print in one collection, all that I had before
@@ -62,7 +53,7 @@ because every man must give an account of himself to God.
 
   MARCH 1771.
 
-                             THE PREFACE.
+## THE PREFACE.
 
 _THE following Sermons contain the substance of what I have been
 preaching, for between eight and nine years last past. During that time

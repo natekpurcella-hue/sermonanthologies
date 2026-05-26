@@ -512,15 +512,4 @@ LECTURE III.
    thoroughly awake? If you fail here, if you do not do this, and get
    prepared, you can go no further with me in this course of lectures. I
    have gone with you as far as it is of any use to go, until your fallow
-   ground is broken up. Now, you must make thorough work upon this point,
-   or all I have further to say will do you little good. Nay, it will only
-   harden and make you worse. If, when next Friday night arrives, it finds
-   you with unbroken hearts, you need not expect to be benefited by what I
-   shall say. If you do not set about this work immediately, I shall take
-   it for granted that you do not mean to be revived, that you have
-   forsaken your minister, and mean to let him go up to battle alone. If
-   you do not do this, I charge you with having forsaken Christ, with
-   refusing to repent and do your first work. But if you will be prepared
-   to enter upon the work, I propose, God willing, next Friday evening, to
-   lead you into the work of saving sinners.
-     __________________________________________________________________
+   ground is broken up. Now, you must make thorough work upon this point, or all I have further to say will do you little good. Nay, it will only harden and make you worse. If, when next Friday night arrives, it finds you with unbroken hearts, you need not expect to be benefited by what I shall say. If you do not set about this work immediately, I shall take it for granted that you do not mean to be revived, that you have forsaken your minister, and mean to let him go up to battle alone. If you do not do this, I charge you with having forsaken Christ, with refusing to repent and do your first work. But if you will be prepared to enter upon the work, I propose, God willing, next Friday evening, to lead you into the work of saving sinners.
