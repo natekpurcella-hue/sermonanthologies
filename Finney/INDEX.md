@@ -6,7 +6,7 @@
 | Finney-Revival-Lecture-24-WHEN_A_REVIVAL_IS_TO_BE_EXPECTED.md | WHEN A REVIVAL IS TO BE EXPECTED | Revival, Prayer, Repentance, Evangelism, Holy Spirit | No |
 | Finney-Revival-Lecture-25-HOW_TO_PROMOTE_A_REVIVAL.md | HOW TO PROMOTE A REVIVAL | Revival, Prayer, Repentance, Evangelism, Holy Spirit | No |
 | Finney-Revival-Lecture-26-PREVAILING_PRAYER.md | PREVAILING PRAYER | Prayer, Revival, Repentance, Evangelism, Holy Spirit | No |
-| Finney-Revival-Lecture-27-THE_PRAYER_OF_FAITH.md | THE PRAYER OF FAITH | Prayer, Faith, Revival, Repentance, Evangelism | No |
+| Finney-Revival-Lecture-27-THE_PRAYER_OF_FAITH.md | THE PRAYER OF FAITH | Prayer, Faith, Revival, Repentance, Evangelism | Faith-Anthology |
 | Finney-Revival-Lecture-28-THE_SPIRIT_OF_PRAYER.md | THE SPIRIT OF PRAYER | Prayer, Holy Spirit, Revival, Repentance, Evangelism | No |
 | Finney-Revival-Lecture-29-ON_BEING_FILLED_WITH_THE_SPIRIT.md | ON BEING FILLED WITH THE SPIRIT | Holy Spirit, Revival, Prayer, Repentance, Evangelism | No |
 | Finney-Revival-Lecture-30-MEETINGS_FOR_PRAYER.md | MEETINGS FOR PRAYER | Prayer, Revival, Repentance, Evangelism, Holy Spirit | No |
