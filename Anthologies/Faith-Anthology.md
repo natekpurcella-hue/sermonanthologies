@@ -1541,6 +1541,8 @@ brother at Sidmouth sent 5l.
 ## PART III: SALVATION BY FAITH
 **By John Wesley**
 
+**Historical Context:** This sermon serves as John Wesley's theological manifesto. He preached it at St. Mary’s, Oxford, on June 18, 1738—only 25 days after his famous Aldersgate experience where he felt his heart "strangely warmed." Standing before the academic elite who knew him as a rigid legalist, Wesley used this moment to publicly declare that salvation is a free gift of grace, marking the true beginning of the Methodist Revival.
+
 "By grace ye are saved through faith." — EPHESIANS 2:8
 
 1. ALL the blessings which God hath bestowed upon man are of his mere
