@@ -1,3 +1,5 @@
+# January 1, 1835. We had last evening an especial prayer-meeting of the
+
 # Deepening Faith 1835
 
 January 1, 1835. We had last evening an especial prayer-meeting of the

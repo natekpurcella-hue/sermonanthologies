@@ -1,3 +1,5 @@
+# January 1, 1836. Through a sister was given 6s., being six different
+
 # Orphan Work Establishment 1836
 
 January 1, 1836. Through a sister was given 6s., being six different

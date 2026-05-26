@@ -1,4 +1,5 @@
-# The Judgment Seat of Christ
+# "O God, stamp eternity upon my eyeballs." — Jonathan Edwards
+
 **Author:** Leonard Ravenhill
 
 ## Introduction

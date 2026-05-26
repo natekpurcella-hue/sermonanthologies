@@ -1,3 +1,5 @@
+# GROWTH IN GRACE
+
 # Lecture XXII: GROWTH IN GRACE. Text--But grow in grace and in the knowledge of our Lord and Saviour
 
 LECTURE XXII.

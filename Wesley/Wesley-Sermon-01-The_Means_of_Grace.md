@@ -1,4 +1,4 @@
-# PREFACE
+# 1. I HAVE had a desire for several years, if God should spare me
 
 ## To the READER.
 

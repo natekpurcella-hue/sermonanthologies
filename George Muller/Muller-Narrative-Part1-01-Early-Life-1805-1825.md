@@ -1,3 +1,5 @@
+# I was born at Kroppenstaedt, near Halberstadt, in the kingdom of Prussia,
+
 # Early Life 1805 1825
 
 I was born at Kroppenstaedt, near Halberstadt, in the kingdom of Prussia,

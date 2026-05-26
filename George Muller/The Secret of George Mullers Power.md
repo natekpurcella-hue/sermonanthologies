@@ -1,3 +1,5 @@
+# When George Müller was asked by a friend what the secret of his service for God was, he paused, then bent lower and lower until his head almost touched the floor. He replied:
+
 # The Secret of George Müller's Power
 **Author:** George Müller
 

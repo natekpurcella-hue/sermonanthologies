@@ -1,3 +1,5 @@
+# “I AM THE LORD, I CHANGE NOT; THEREFORE, YE SONS OF JACOB ARE NOT CONSUMED.” —MALACHI 3:6
+
 # The Immutability of God
 **Scripture:** Malachi 3:6
 

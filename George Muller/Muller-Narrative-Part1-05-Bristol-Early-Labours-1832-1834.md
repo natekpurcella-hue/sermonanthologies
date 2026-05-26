@@ -1,3 +1,5 @@
+# May 25th, 1832. This evening we arrived in Bristol. May 27. This morning
+
 # Bristol Early Labours 1832 1834
 
 May 25th, 1832. This evening we arrived in Bristol. May 27. This morning

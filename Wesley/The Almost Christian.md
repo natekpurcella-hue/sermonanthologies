@@ -1,4 +1,5 @@
-# The Almost Christian
+# "Almost thou persuadest me to be a Christian." — Acts 26:28
+
 **Author:** John Wesley
 
 ## Introduction

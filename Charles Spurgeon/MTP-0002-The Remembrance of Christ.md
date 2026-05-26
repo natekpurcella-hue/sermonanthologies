@@ -1,3 +1,5 @@
+# "THIS DO IN REMEMBRANCE OF ME."—1 CORINTHIANS 11:24
+
 # The Remembrance of Christ
 **Scripture:** 1 Corinthians 11:24
 

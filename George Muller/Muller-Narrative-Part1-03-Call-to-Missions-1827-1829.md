@@ -1,3 +1,5 @@
+# In August, 1827, I heard that the Continental Society in England intended
+
 # Call to Missions 1827 1829
 
 In August, 1827, I heard that the Continental Society in England intended

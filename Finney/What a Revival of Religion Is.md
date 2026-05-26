@@ -1,4 +1,5 @@
-# What a Revival of Religion Is
+# "O Lord, revive thy work in the midst of the years, in the midst of the years make known; in wrath remember mercy." — Habakkuk 3:2
+
 **Author:** Charles Finney
 
 ## Introduction

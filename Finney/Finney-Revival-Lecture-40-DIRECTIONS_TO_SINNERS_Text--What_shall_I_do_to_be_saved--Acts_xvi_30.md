@@ -1,3 +1,5 @@
+# DIRECTIONS TO SINNERS
+
 # Lecture XVIII: DIRECTIONS TO SINNERS. Text--What shall I do to be saved.--Acts xvi. 30.
 
 LECTURE XVIII.

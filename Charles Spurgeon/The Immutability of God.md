@@ -1,4 +1,5 @@
-# The Immutability of God
+# "I am the Lord, I change not; therefore ye sons of Jacob are not consumed." — Malachi 3:6
+
 **Author:** Charles Spurgeon
 
 ## Introduction

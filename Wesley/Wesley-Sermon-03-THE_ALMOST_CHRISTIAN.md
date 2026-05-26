@@ -1,3 +1,5 @@
+# THE ALMOST CHRISTIAN
+
 SERMON II.[2]
 
                          THE ALMOST CHRISTIAN.
