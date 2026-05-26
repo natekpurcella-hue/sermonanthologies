@@ -1,0 +1,171 @@
+# DOUBTFUL ACTIONS ARE SINFUL
+
+# Lecture III: DOUBTFUL ACTIONS ARE SINFUL
+
+Text.--"He that doubteth is damned if he eat, because he eateth not of faith: for whatsoever is not of faith is sin." --Romans xiv. 23.
+
+IT was a custom among the idolatrous heathen to offer the bodies of slain beasts in sacrifice, a part of every beast that was offered belonged to the priest. The priests used to send their portion to market to sell, and it was sold in the shambles as any other meat. The Christian Jews that were scattered every where, were very particular as to what meats they ate, so as not even to run the least danger of violating the Mosaic law, and they raised doubts and created disputes and difficulties among the churches. This was one of the subjects about which the church of Corinth was divided and agitated, until they finally wrote to the apostle Paul for directions. A part of the First Epistle to the Corinthians was doubtless written as a reply to such inquiries. It seems there were some who carried their scruples so far that they thought it not proper to eat any meat, for if they went to market for it they were continually in danger of buying that which was offered to idols. --Others thought it made no difference, they had a right to eat meat, and they would buy it in the market as they found it, and give themselves no trouble about the matter. To quell the dispute, they wrote to Paul, and in the 8th chapter he takes up the subject and discusses it in full.
+
+"Now, as touching things offered unto idols, we know that we all have knowledge. Knowledge puffeth up, but charity edifieth. And if any man think that he knoweth any thing, he knoweth nothing yet as he ought to know. But if any man love God, the same is known of him. As concerning therefore the eating of those things that are offered in sacrifice unto idols, we know that an idol is nothing in the world, and that there is none other God but one. For though there be that are called gods, whether in heaven or in earth, (as there be gods many, and lords many;) but to us there is but one God, the Father, of whom are all things, and we in him; and one Lord Jesus Christ, by whom are all things, and we by him. Howbeit, there is not in every man that knowledge; for some with conscience of the idol unto this hour eat it as a thing offered unto an idol: and their conscience, being weak, is defiled."
+
+"His conscience is defiled," that is, he regards it as a meat offered to an idol, and is really practising idolatry. The eating of meat is a matter of total indifference, in itself.
+
+But meat commendeth us not to God; for neither if we eat are we the better; neither if we eat not, are we the worse.--But take heed lest by any means this liberty of yours become a stumbling block to them that are weak. For if any man see thee, which hast knowledge, sit at meat in the idol's temple, shall not the conscience of him which is weak be emboldened to eat those things offered to idols; and through thy knowledge shall the weak brother perish for whom Christ died?
+
+Although they might have a sufficient knowledge on the subject to know that an idol is nothing, and cannot make any change in the meat itself, yet if they should be seen eating meat that was known to have been offered to an idol, those who were weak might be emboldened by it to eat the sacrifices as such, or as an act of worship to the idol, supposing all the while that they were but following the example of their more enlightened brethren.
+
+But when ye sin so against the brethren, and wound their weak conscience, ye sin against Christ. Wherefore, if meat make my brother to offend, I will eat no more flesh while the world standeth, lest I make my brother to offend.
+
+This is his benevolent conclusion, that he would rather forego the use of flesh altogether than be the occasion of drawing a weak brother away into idolatry. For, in fact, to sin so against a weak brother is to sin against Christ.
+
+In writing to the Romans he takes up the same subject,--the same dispute had existed there. After laying down some general maxims and principles, he gives this rule:
+
+Him that is weak in faith receive ye, but not to doubtful disputations. For one believeth that he may eat all things; another who is weak, eateth herbs.
+
+There were some among them who chose to live entirely on vegetables, rather than run the risk of buying in the shambles flesh which had been offered in sacrifice to idols. Others ate their flesh as usual, buying what was offered in market, asking no questions for conscience' sake. Those who lived on vegetables charged the others with idolatry. And those that ate flesh accused the others of superstition and weakness. This was wrong.
+
+Let not him that eateth, despise him that eateth not; and let not him which eateth not, judge him that eateth: for God hath received him. Who art thou that judgest another man's servant? to his own master he standeth or falleth: yea, he shall be holden up: for God is able to make him stand.
+
+There was also a controversy about observing the Jewish festival days and holy days. A part supposed that God required this, and therefore they observed them. The others neglected them because they supposed God did not require the observance.
+
+One man esteemeth one day above another; another esteemeth every day alike. Let every man be fully persuaded in his own mind. He that regardeth the day, regardeth it unto the Lord: and he that regardeth not the day, to the Lord he doth not regard it. He that eateth, eateth to the Lord, for he giveth God thanks; and he that eateth not, to the Lord he eateth not, and giveth God thanks. For none of us liveth to himself, and no man dieth to himself. For whether we live, we live unto the Lord: and whether we die, we die unto the Lord: whether we live therefore, or die, we are the Lord's. For to this end Christ both died, and rose, and revived, that he might be Lord both of the dead and living. But why dost thou judge thy brother? or why dost thou set at nought thy brother? for we shall all stand before the judgment-seat of Christ. For as it is written, As I live, saith the Lord, every knee shall bow to me, and every tongue shall confess to God. So then every one of us shall give account of himself to God. Let us not therefore, judge one another any more: but judge this rather, that no man put a stumbling block or an occasion to fall in his brother's way. I know, and am persuaded by the Lord Jesus, that there is nothing unclean of itself: but to him that esteemeth any thing to be unclean, to him it is unclean. But if thy brother be grieved with thy meat, now walkest thou not charitably. Destroy not him with thy meat, for whom Christ died. Let not then your good be evil spoken of: For the kingdom of God is not meat and drink: but righteousness, and peace, and joy in the Holy Ghost. For he that in these things serveth Christ is acceptable to God, and approved of men. Let us therefore follow after the things which make for peace, and things wherewith one may edify another. For meat destroy not the work of God. All things indeed are pure: but it is evil for that man who eateth with offence. It is good neither to eat flesh, nor to drink wine, nor any thing whereby thy brother stumbleth, or is offended, or is made weak. Hast thou faith? have it to thyself before God. Happy is he that condemneth not himself in that thing which he alloweth. AND HE THAT DOUBTETH IS DAMNED IF HE EAT, BECAUSE HE EATETH NOT OF FAITH: FOR WHATSOEVER IS NOT OF FAITH IS SIN.
+
+In the midst of these discussions, the apostle lays down the general principle: "He that doubteth is damned if he eat, because he eateth not of faith: for whatsoever is not of faith is sin."
+
+In my last lecture I spoke of the professor of religion who is self-deceived because he does not practice what he admits to be true. My present object is to discuss a kindred subject, and to show that
+
+DOING THAT OF WHICH YOU DOUBT THE LAWFULNESS IS SIN.
+
+In discussing this subject, I will pursue the following order:--
+
+I. Show the meaning of the principle laid down in the text.
+
+II. Show its application to a variety of cases.
+
+III. Remarks.
+
+I. I am to show the meaning of the principle, "He that doubteth is damned if he eat, because he eateth not of faith: for whatsoever is not of faith is sin."
+
+The word "damned," in this place, does not mean that the person is sent to hell. It means condemned. He is condemned by his own conscience, and he is condemned of God, for doing that of which he doubts the lawfulness.
+
+Faith, in this place, means a clear conviction that it is right. "Whatsoever is not of faith," that is, whatsoever is done when the individual is not fully persuaded that it is right, "is sin."
+
+The principle is this:--That for a man to do a thing, when he doubts the lawfulness of it, is sin, for which he is condemned before God, and must repent or be damned.
+
+II. I am now to show the application of this principle to a variety of particular cases in human life. But, 
+
+First--I will mention some cases where a person may be equally in doubt with respect to the lawfulness of a thing, whether he is bound to do it or not to do it.
+
+Take the subject of Wine at the Communion Table.
+
+Since the Temperance Reformation has brought up the question about the use of wine, and various wines have been analyzed and the quantity of alcohol they contain has been disclosed, and the difficulty shown of getting wines in this country that are not highly alcoholic, it has been seriously doubted by some whether it is right to use such wines as we can get here in celebrating the Lord's supper. Some are strong in the belief that wine is an essential part of the ordinance, and that we ought to use the best wine we can get, and there leave the matter. Others say that we ought not to use alcoholic or intoxicating wine at all, and that as wine is not in their view essential to the ordinance, it is better to use some other drink.--Both these classes are undoubtedly equally conscientious, and desirous to do what they have most reason to believe is agreeable to the will of God. And others, again, are in doubt on the matter. I can easily conceive that some conscientious persons may be very seriously in doubt which way to act. They are doubtful whether it is right to use alcoholic wine, and are doubtful whether it is right to use any other drink in the sacrament. Here is a case that comes under President Edwards' rule, "where it is doubtful in my mind, whether I ought to do it or not to do it," and which men must decide according to the best light they can get, honestly and with a single desire to know and do what is most pleasing to God.
+
+I do not intend to discuss this question, of the use of wine at the communion, nor is this the proper place for a full examination of the subject. I introduced it now merely for the purpose of illustration. But since it is before us, I will make two or three remarks.
+
+(1) I have never apprehended so much evil as some do, from the use of common wine at the communion. I have not felt alarmed at the danger or evil of taking a sip of wine, a teaspoonful or so, once a month, or once in two months, or three months. I do not believe that the disease of intemperance (and intemperance, you know, is in reality a disease of the body) will be either created or continued by so slight a cause. Nor do I believe it is going to injure the Temperance cause so much as some have supposed. And therefore, where a person uses wine as we have been accustomed to do, and is fully persuaded in his own mind, he does not sin.
+
+(2) On the other hand, I do not think that the use of wine is any way essential to the ordinance. Very much has been said and written and printed on the subject, which has darkened counsel by words without knowledge. To my mind there are stronger reasons than I have any where seen exhibited, for supposing that wine is not essential to this ordinance. Great pains have been taken to prove that our Savior used wine that was unfermented, when he instituted the supper, and which therefore contained no alcohol. Indeed, this has been the point chiefly in debate. But in fact it seems just as irrelevant as it would to discuss the question, whether he used wheat or oaten bread, or whether it was leavened or unleavened. Why do we not hear this question vehemently discussed? Because all regard it as unessential.
+
+In order to settle this question about the wine, we should ask what is the meaning of the ordinance of the supper. --What did our Savior design to do? It was to take the two staple articles for the support of life, food and drink, and use them to represent the necessity and virtue of the atonement.
+
+It is plain that Christ had that view of it, for it corresponds with what he says, "My flesh is meat indeed, and my blood is drink indeed." So he poured out water in the temple, and said, "If any man thirst, let him come unto me and drink." --He is called the "Bread of life." Thus it was customary to show the value of Christ's sufferings by food and drink. Why did he take bread instead of some other article of food? Those who know the history and usages of that country will see that he chose that article of food which was in most common use among the people. When I was in Malta, it seemed as if a great part of the people lived on bread alone. They would go in crowds to the market-place, and buy each a piece of coarse bread, and stand and eat it. Thus the most common and the most universally wholesome article of diet is chosen by Christ to represent his flesh. Then why did he take wine to drink? For the same reason; wine is the common drink of the people, especially at their meals, in all those countries. It is sold there for about a cent a bottle, wine being cheaper than small beer is here. In Sicily I was informed that wine was sold for five cents a gallon, and I do not know but it was about as cheap as water. And you will observe that the Lord's supper was first observed at the close of the feast of the passover, at which the Jews always used wine. The meaning of the Savior in this ordinance, then, is this:--As food and drink are essential to the life of the body, so his body and blood, or his atonement, are essential to the life of the soul. For myself, I am fully convinced that wine is not essential to the communion, and I should not hesitate to give water to any individual who conscientiously preferred it. Let it be the common food and drink of the country, the support of life to the body, and it answers the end of the institution. If I was a missionary among the Esquimaux Indians, where they live on dried seal's flesh and snow-water, I would administer the supper in those substances. It would convey to their minds the idea that they cannot live without Christ.
+
+I say, then, that if an individual is fully persuaded in his own mind, he does not sin in giving up the use of wine. Let this church be fully persuaded in their own minds, and I shall have no scruple to do either way. If they will substitute any other wholesome drink, that is in common use, instead of the wine. And at the same time I have no objection myself against going on in the old way.
+
+Now, don't lose sight of the great principle that is under discussion. It is this: where a man doubts honestly, whether it is lawful to do a thing, and doubts equally, on the other hand, whether it is lawful to omit doing it, he must pray over the matter, and search the scriptures, and get the best light he can on the subject, and then act. And when he does this, he is by no means to be judged or censured by others for the course he takes. "Who art thou that judgest another man's servant?" And no man is authorized to make his own conscience the rule of his neighbor's conduct.
+
+A similar case is where a minister is so situated that it is necessary for him to go a distance on the Sabbath to preach, as where he preaches to two congregations, and the like. Here he may honestly doubt what is his duty, on both hands. If he goes, he appears to strangers to disregard the Sabbath. If he does not go, the people will have no preaching. The direction is, let him search the scriptures, and get the best light he can, make it a subject of prayer, weigh it thoroughly, and act according to his best judgment.
+
+So in the case of a Sabbath-school teacher. He may live at a distance from the school, and be obliged to travel to it on the Sabbath, or they will have no school. And he may honestly doubt which is his duty, to remain in his own church on the Sabbath, or to travel there, five, eight, or ten miles, to a destitute neighborhood, to keep up the Sabbath school. Here he must decide for himself, according to the best light he can get. And let no man set himself up to judge over a humble and conscientious disciple of the Lord Jesus.
+
+You see that in all these cases it is understood and is plain, that the design is to honour God, and the sole ground of doubt is, which course will really honour him. Paul says, in reference to all laws of this kind, "He that regardeth the day, regardeth it unto the Lord; and he that regardeth not the day, to the Lord he doth not regard it." The design is to do right, and the doubt is as to the means of doing it in the best manner.
+
+Secondly--I will mention some cases, where the design is wrong, where the object is to gratify self, and the individual has doubts whether he may do it lawfully. I shall refer to cases concerning which there is a difference of opinion--to acts of which the least that can be said is that a man must have doubts of their being lawful.
+
+1. Take, for instance, the making or vending of alcoholic drinks.
+
+After all that has been said on this subject, and all the light that has been thrown upon the question, is there a man living in this land who can say he sees no reason to doubt the lawfulness of this business. To say the least that can be said, there can be no honest mind but must be brought to doubt it. We suppose, indeed, that there is no honest mind but must know it is unlawful and criminal. But take the most charitable supposition possible for the distiller or the vender, and suppose he is not fully convinced of its unlawfulness. We say he must at least doubt its lawfulness. What is he to do then? Is he to shut his eyes to the light, and go on, regardless of truth so long as he can keep from seeing it? No. He may cavil and raise objections, as much as he pleases, but he knows that he has doubts, about the lawfulness of his business. And if he doubts, and still persists in doing it, without taking the trouble to examine and see what is right, he is just as sure to be damned as if he went on in the face of knowledge. You hear these men say, "Why, I am not fully persuaded in my own mind, that the Bible forbids making or vending ardent spirits." Well, suppose you are not fully convinced, suppose all your possible and conceivable objections and cavils are not removed, what then? You know you have doubts about its lawfulness. And it is not necessary to take such ground to convict you of doing wrong. If you doubt its lawfulness, and yet persist in doing it, you are in the way to hell.
+
+2. So where an individual is engaged in an employment that requires him to break the Sabbath.
+
+As for instance, attending on a Post-office that is opened on the Sabbath, or a Turnpike gate, or in a Steamboat, or any other employment that is not work of necessity. There are always some things that must be done on the Sabbath, they are works of absolute necessity or of mercy.
+
+But suppose a case in which the labor is not necessary, as in the transportation of the U.S. mail on the Sabbath, or the like. The least that can be said, the lowest ground that can be taken by charity itself, without turning fool, is that the lawfulness of such employment is doubtful. And if they persist in doing it, they sin, and are on the way to hell. God has sent out the penalty of his law against them, and if they do not repent they must be damned.
+
+3. Owning stocks in steamboat and railroad companies, in stages, canal boats, &c. that break the Sabbath.
+
+Can any such owner truly say he does not doubt the lawfulness of such an investment of capital? Can charity stoop lower than to say that man must strongly doubt whether such labor is a work of necessity or mercy? It is not necessary in the case to demonstrate that it is unlawful, though that can be done fully, but only to show so much light as to create a doubt of its lawfulness. Then if he persist in doing it, with that doubt unsatisfied, he is condemned--and lost.
+
+4. The same remarks will apply to all sorts of lottery gambling. He doubts.
+
+5. Take the case of those indulgences of appetite, which are subject of controversy, and which to say the least, are of doubtful right.
+
+(1.) The drinking of wine, and beer, and other fermented intoxicating liquors. In the present aspect of the temperance cause, is it not questionable at least, whether making use of these drinks is not transgressing the rule laid down by the apostle, "It is good neither to eat flesh nor drink wine, nor any thing whereby thy brother stumbleth, or is offended, or made weak." No man can make me believe he has no doubts of the lawfulness of doing it. There is no certain proof of its lawfulness, and there is strong proof of its unlawfulness, and every man who does it while he doubts the lawfulness, is condemned, and if he persists, is damned.
+
+If there is any sophistry in all this, I should like to know it, for I do not wish to deceive others nor to be deceived myself. But I am entirely deceived if this is not a simple, direct and necessary inference from the sentiment of the text.
+
+(2.) Tobacco. Can any man pretend that he has no doubt that it is agreeable to the will of God for him to use tobacco? No man can pretend that he doubts the lawfulness of his omission of these things. Does any man living think that he is bound in duty to make use of wine, or strong beer, or tobacco, as a luxury? No. The doubt is all on one side. What shall we say then, of that man who doubts the lawfulness of it, and still fills his face with the poisonous weed? He is condemned.
+
+(3.) I might refer to tea and coffee. It is known generally, that these substances are not nutritious at all, and that nearly eight millions of dollars are spent annually for them in this country. Now, will any man pretend that he does not doubt the lawfulness of spending all this money for that which is of no use, and which are WELL KNOWN, to all who have examined the subject, to be positively injurious, intolerable to weak stomachs, and as much as the strongest can dispose of? And all this, while the various benevolent societies of the age are loudly calling for HELP to send the gospel abroad and save a world from hell! To think of the church alone spending millions upon their tea tables, is there no doubt here?
+
+6. Apply this principle to various amusements.
+
+(1.) The Theater. There are vast multitudes of professors of religion who attend the theater. And they contend that the Bible no where forbids it. Now mark.--What Christian professor ever went to a theater and did not doubt whether he was doing what was lawful. I by no means admit that it is a point which is only doubtful. I suppose it is a very plain case, and can be shown to be, that it is unlawful. But I am now only meeting those of you, if there are any here, who go to the theater, and are trying to cover up yourselves in the refuge that the Bible nowhere expressly forbids it.
+
+(2.) Parties of Pleasure, where they go and eat and drink to surfeiting. Is there no reason to doubt whether that is such a use of time and money as God requires? Look at the starving poor, and consider the effect of this gaiety and extravagance, and see if you will ever go to another such party, or make one, without doubting its lawfulness. Where can you find a man, or a woman, that will go so far as to say they have no doubt? Probably there is not one honest mind who will say this. And if you doubt, and still do it, you are condemned.
+
+You see that this principle touches a whole class of things, about which there is a controversy, and where people attempt to parry off by saying it is not worse than to do so and so, and thus get away from the condemning sentence of God's law. But in fact, if there is a doubt, it is their duty to abstain.
+
+(3.) Take the case of balls, of novel reading, and other methods of wasting time. Is this God's way to spend your lives? Can you say you have no doubt of it?
+
+7. Making calls on the Sabbath. People will make a call, and then make an apology about it. "I did not know as it was quite right, but I thought I would venture it." He is a Sabbath breaker in heart, at all events, because he doubts.
+
+8. Compliance with worldly customs at new-year's day. --Then the ladies are all at home, and the gentlemen are running all about town to call on them, and the ladies make their great preparations, and treat them with their cake, and their wine and punch, enough to poison them almost to death, and all together are bowing down to the goddess of fashion. Is there a lady here that does not doubt the lawfulness of all this? I say it can be demonstrated to be wicked, but I only ask the ladies of this city. Is it NOT DOUBTFUL whether this is all lawful? I should call in question the sanity of the man or woman that had no doubt of the lawfulness of such a custom, in the midst of such prevailing intemperance as exists in this city. --Who among you will practise it again? Practise it if you dare--at the peril of your soul. If you do that which is merely doubtful, God frowns and condemns, and his voice must be regarded.
+
+I know people try to excuse the matter, and say it is well to have a day appropriated to such calls, when every lady is at home and every gentleman freed from business, and all that. And all that is very well. But when it is seen to be so abused, and to produce so much evil, I ask every Christian here, if you can help doubting its lawfulness? And if it be doubtful, it comes under the rule: "If meat make my brother to offend," if keeping new-year's leads to so much gluttony, and drunkenness, and wickedness, does it not bring the lawfulness of it into doubt? Yes, that is the least that can be said, and they who doubt and yet do it, sin against God.
+
+9. Compliance with the extravagant fashions of the day.
+
+Christian lady! have you never doubted, do you not now doubt, whether it is lawful for you to copy these fashions, brought from foreign countries, and from places which it were a shame even to name in this assembly? Have you no doubt about it? And if you doubt and do it, you are condemned, and must repent of your sin, or you will be lost forever!
+
+10. Intermarriages of Christians with impenitent sinners.
+
+This answer always comes up. "But after all you say, it is not certain that these marriages are not lawful." Supposing it be so, yet does not the Bible and the nature of the case make it, at least, doubtful whether they are right? It can be demonstrated, indeed, to be unlawful. But suppose it could not be reduced to demonstration. What Christian ever did it and did not doubt whether it was lawful? And he that doubteth is condemned. See that Christian man or woman that is about forming such a connection--doubting all the way whether it is right--trying to pray down conscience under the pretext of praying for light, praying all round your duty, and yet pressing on--TAKE CARE--you know you doubt the lawfulness of what you propose, and REMEMBER that he that doubteth is damned.
+
+Thus you see, my hearers, that here is a principle that will stand by you when you attempt to rebuke sin, and the power of society is employed to face you down and put you on the defensive, to bring absolute proof of the sinfulness of a cherished practice. Remember --the burden of PROOF does not lie on you, to show beyond a doubt the absolute unlawfulness of the thing. If you can show sufficient reason to question its lawfulness, and to create a valid doubt whether it is according to the will of God, you shift the burden of proof to the other side. And unless they can remove the doubt, and show that there is no room for doubt, they have no right to continue and if they do, they sin against God.
+
+REMARKS.
+
+1. The knowledge of duty is not indispensable to moral obligation, but the possession of the means of knowledge is sufficient to make a person responsible.
+
+If a man has the means of knowing whether it is right or wrong, he is bound to use the means, and is bound to inquire and ascertain, at his peril.
+
+2. If those are condemned, and adjudged worthy of damnation, who do that of which they doubt the lawfulness, what shall we say of the multitudes who are doing continually that which they know and confess to be wrong?
+
+Woe to that man who practises that which he condemns. --And "happy is he that condemneth not himself in that thing which he alloweth."
+
+3. Hypocrites often attempt to shelter themselves behind their doubts to get clear of their duty.
+
+The hypocrite is unwilling to be enlightened, he don't wish to know the truth, because he don't wish to obey the Lord, and so he hides behind his doubts, and turns away his eye from the light, and will not look or examine to see what his duty is, and in this way he tries to shield himself from responsibility. But God will drag them out from behind this refuge of lies, by the principle laid down in the text, that their very doubts condemn them.
+
+Many will not be enlightened on the subject of temperance, and still persist in drinking or selling rum, because they are not fully convinced it is wrong. And they will not read a tract or a paper, nor attend a temperance meeting, for fear they shall be convinced. Many are resolved to indulge in the use of wine and strong beer, and they will not listen to any thing calculated to convince them of the wrong. It shows that they are determined to indulge in sin, and they hope to hide behind their doubts. What better evidence could they give that they are hypocrites?
+
+Who in all these United States can say, that he has no doubt of the lawfulness of slavery? Yet the great body of the people will not hear any thing on the subject, and they go into a passion if you name it, and it is even seriously proposed, both at the north and at the south, to pass laws forbidding inquiry and discussion on the subject. Now, suppose these laws should be passed, for the purpose of enabling the nation to shelter itself behind its doubts whether slavery is a sin, that ought to be abolished immediately--will that help the matter? Not at all. If they continue to hold their fellow men as property, in slavery, while they doubt its lawfulness, they are condemned before God, and we may be sure their sin will find them out, and God will let them KNOW how he regards it.
+
+It is amazing to see the foolishness of people on this subject--as if by refusing to get clear of their doubts they could get clear of their sin. Think of the people of the south; Christians, and even ministers refusing to read a paper on the subject of slavery, and perhaps sending it back with abusive or threatening words. Threatening--for what? For reasoning with them about their duty. --It can be demonstrated absolutely, that slavery is unlawful, and ought to be repented of and given up like any other sin. But suppose they only doubt the lawfulness of slavery, and do not mean to be enlightened, they are condemned of God. Let them know that they cannot put this thing down, they cannot clear themselves of it; so long as they doubt its lawfulness they cannot hold men in slavery without sin, and that they do doubt its lawfulness is demonstrated by this opposition to discussion.
+
+We may suppose a case, and perhaps there may be some such in the southern country, where a man doubts the lawfulness of holding slaves and equally doubts the lawfulness of emancipating them in their present state of ignorance and dependence. In that case he comes under Pres. Edward's rule, and it is his duty, not to fly in a passion with those who would call his attention to it, not to send back newspapers and refuse to read, but to inquiry on all hands for light, and examine the question honestly in the light of the word of God, till his doubts are cleared up. The least he can do is to set himself with all his power to educate them and train them to take care of themselves as fast and as thoroughly as possible, and to put them in a state where they can be set at liberty.
+
+5. It is manifest there is but very little conscience in the church.
+
+See what multitudes are persisting to do what they strongly doubt the lawfulness of.
+
+6. There is still less love to God than there is conscience.
+
+It cannot be pretended that love to God is the cause of all this following of fashions, this practising indulgences, and other things of which people doubt the lawfulness. --They do not persist in these things because they love God so well. No, no, but they persist in it because they wish to do it, to gratify themselves, and they had rather run the risk of doing wrong than to have their doubts cleared up. It is because they have so little love for God, so little care for the honor of God.
+
+7. Do not say, in your prayers, "O Lord, if I have sinned in this thing, O Lord, forgive me the sin."
+
+If you have done that of which you doubted the lawfulness, you have sinned, whether the thing itself be right or wrong. And you must repent, and ask forgiveness.
+
+And now, let me ask you all who are here present, are you convinced that to do what you doubt the lawfulness of, is sin? If you are, I have one more question to ask you. Will you from this time relinquish every thing of which you doubt the lawfulness? Every amusement, every indulgence, every practice, every pursuit? Will you do it, or will you stand before the solemn judgment seat of Jesus Christ, condemned? If you will not relinquish these things, you show that you are an impenitent sinner, and do not intend to obey God, and if you do not repent, you bring down upon your head God's condemnation and wrath for ever.
