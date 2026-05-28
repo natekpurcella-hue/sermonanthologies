@@ -4,3 +4,19 @@ node_modules/
 dist/
 build/
 *.log
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generated runtime artifacts
+output/
+checkpoints/
+source_cache/
+
+# Local Python environments
+fish_env/
+test_venv/
+xtts_env/
+
+# Stray package resolution artifacts
+=0.*
