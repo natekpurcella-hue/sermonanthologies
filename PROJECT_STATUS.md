@@ -23,3 +23,9 @@ The project has been migrated to Kaggle to leverage better GPU availability (P10
 2. **First Successful Run**: Monitor Version 8 for completion and download `sermon_output.wav`.
 3. **Option B (Caching)**: Once a run succeeds, export the environment to a Kaggle Dataset to reduce setup time from 15 mins to 30 seconds.
 4. **Webhook Integration**: Add actual webhook URL to the notebook for real-time notifications.
+
+## 5. Video Draft Status
+- **Renderer**: `pipeline/tools/generate_long_video.py` now uses FFmpeg plus a Pillow-generated overlay instead of the broken `moviepy.editor` import path.
+- **Test Render**: A 10-second preview for `spurgeon-mtp-0003-the-sin-of-unbelief` rendered successfully and validated cleanly.
+- **Full Draft**: `output/video/long/spurgeon-mtp-0003-the-sin-of-unbelief.mp4` was rendered successfully from the mastered WAV.
+- **Current Caveat**: The initial full draft is very large because it used a fast, high-bitrate FFmpeg preset; a smaller delivery preset should be added next.

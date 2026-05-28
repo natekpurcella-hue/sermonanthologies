@@ -1,0 +1,672 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" id="sermon-scene">
+  <defs>
+    <!-- Color palette: warm cream/sepia Victorian gaslight -->
+    <!-- Cream: #f5e6c8 | Stone: #c4a882 | Dark stone: #7a5c38 | Deep brown: #2a1a0a -->
+    <!-- Wood warm: #8b5e3c | Shadow: #3d2a14 | Skin: #c4956a | Gaslight gold: #ffd27f -->
+    <!-- Gaslight dim: #f0b040 | Parchment: #e8d5a8 | Ink: #1a0f05 -->
+
+    <!-- Warm background gradient: ceiling to floor -->
+    <linearGradient id="bg-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3d2a14"/>
+      <stop offset="18%" stop-color="#6b4a28"/>
+      <stop offset="45%" stop-color="#c4956a" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#1a0f05"/>
+    </linearGradient>
+
+    <!-- Stone wall texture gradient -->
+    <linearGradient id="stone-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a08060"/>
+      <stop offset="100%" stop-color="#7a5c38"/>
+    </linearGradient>
+
+    <!-- Gaslight halo behind pulpit -->
+    <radialGradient id="gaslight-halo" cx="70%" cy="38%" r="28%">
+      <stop offset="0%" stop-color="#ffd27f" stop-opacity="0.55"/>
+      <stop offset="40%" stop-color="#f0b040" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3d2a14" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Ambient light over congregation -->
+    <radialGradient id="cong-light" cx="30%" cy="55%" r="40%">
+      <stop offset="0%" stop-color="#f5e6c8" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#1a0f05" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Floor gradient -->
+    <linearGradient id="floor-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5c3d1e"/>
+      <stop offset="100%" stop-color="#1a0f05"/>
+    </linearGradient>
+
+    <!-- Pew wood gradient -->
+    <linearGradient id="pew-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8b5e3c"/>
+      <stop offset="100%" stop-color="#5c3d1e"/>
+    </linearGradient>
+
+    <!-- Pulpit wood gradient -->
+    <linearGradient id="pulpit-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a06a30"/>
+      <stop offset="100%" stop-color="#5c3520"/>
+    </linearGradient>
+
+    <!-- Spurgeon coat gradient -->
+    <linearGradient id="coat-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e1008"/>
+      <stop offset="100%" stop-color="#0a0504"/>
+    </linearGradient>
+
+    <!-- Hatching pattern for woodcut texture -->
+    <pattern id="hatch" patternUnits="userSpaceOnUse" width="8" height="8" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#2a1a0a" stroke-width="0.8" stroke-opacity="0.18"/>
+    </pattern>
+
+    <!-- Fine cross-hatch for shadows -->
+    <pattern id="cross-hatch" patternUnits="userSpaceOnUse" width="6" height="6">
+      <line x1="0" y1="0" x2="6" y2="6" stroke="#2a1a0a" stroke-width="0.6" stroke-opacity="0.12"/>
+      <line x1="6" y1="0" x2="0" y2="6" stroke="#2a1a0a" stroke-width="0.6" stroke-opacity="0.12"/>
+    </pattern>
+
+    <!-- Clip for vertical/shorts crop (1080x1920 centered) -->
+    <clipPath id="vertical-crop">
+      <rect x="420" y="0" width="1080" height="1080"/>
+    </clipPath>
+  </defs>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- BACKGROUND LAYER                                         -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <g id="background">
+    <!-- Base fill -->
+    <rect width="1920" height="1080" fill="#2a1a0a"/>
+    <rect width="1920" height="1080" fill="url(#bg-grad)"/>
+
+    <!-- Gaslight atmospheric glow -->
+    <rect width="1920" height="1080" fill="url(#gaslight-halo)"/>
+    <rect width="1920" height="1080" fill="url(#cong-light)"/>
+
+    <!-- CEILING: Gothic rib vault suggestion -->
+    <g id="ceiling" opacity="0.85">
+      <!-- Central vault rib -->
+      <path d="M 0 0 Q 960 140 1920 0" fill="none" stroke="#6b4a28" stroke-width="6"/>
+      <!-- Side ribs -->
+      <path d="M 0 0 Q 480 180 960 200 Q 1440 180 1920 0" fill="none" stroke="#5c3d1e" stroke-width="3" opacity="0.5"/>
+      <!-- Upper ceiling panels -->
+      <rect x="0" y="0" width="1920" height="90" fill="#1a0f05" opacity="0.7"/>
+      <!-- Ceiling beams suggestion -->
+      <line x1="0" y1="45" x2="1920" y2="45" stroke="#3d2a14" stroke-width="12" opacity="0.8"/>
+      <line x1="640" y1="0" x2="700" y2="90" stroke="#3d2a14" stroke-width="8" opacity="0.5"/>
+      <line x1="1280" y1="0" x2="1220" y2="90" stroke="#3d2a14" stroke-width="8" opacity="0.5"/>
+    </g>
+
+    <!-- BACK WALL: Stone with window arch suggestion -->
+    <g id="back-wall">
+      <rect x="0" y="90" width="1920" height="680" fill="#7a5a30" opacity="0.3"/>
+      <!-- Stone block hatching texture -->
+      <rect x="0" y="90" width="1920" height="680" fill="url(#hatch)"/>
+
+      <!-- Congregation side: arched window (left background) -->
+      <g id="window-left" opacity="0.5">
+        <path d="M 120 120 L 120 540 Q 120 600 185 600 Q 250 600 250 540 L 250 120 Z"
+              fill="#c4a882" opacity="0.15" stroke="#7a5c38" stroke-width="2"/>
+        <!-- Gothic arch point -->
+        <path d="M 120 120 Q 185 60 250 120" fill="none" stroke="#7a5c38" stroke-width="2"/>
+        <!-- Tracery suggestion -->
+        <circle cx="185" cy="140" r="28" fill="none" stroke="#7a5c38" stroke-width="1.5" opacity="0.6"/>
+        <!-- Warm window light -->
+        <path d="M 120 120 L 120 540 Q 120 590 185 590 Q 250 590 250 540 L 250 120 Q 185 60 120 120 Z"
+              fill="#ffd27f" opacity="0.06"/>
+      </g>
+
+      <!-- Second arch window (congregation mid) -->
+      <g id="window-mid" opacity="0.4">
+        <path d="M 340 160 L 340 520 Q 340 575 400 575 Q 460 575 460 520 L 460 160 Q 400 100 340 160 Z"
+              fill="none" stroke="#6b4a28" stroke-width="1.5"/>
+        <circle cx="400" cy="178" r="22" fill="none" stroke="#6b4a28" stroke-width="1" opacity="0.5"/>
+        <path d="M 340 160 L 340 520 Q 340 565 400 565 Q 460 565 460 520 L 460 160 Q 400 100 340 160 Z"
+              fill="#ffd27f" opacity="0.04"/>
+      </g>
+
+      <!-- Pulpit side: grand rose window suggestion (right background) -->
+      <g id="window-rose" opacity="0.6">
+        <!-- Arch frame -->
+        <path d="M 1500 100 L 1500 580 Q 1500 640 1570 640 Q 1640 640 1640 580 L 1640 100 Q 1570 40 1500 100 Z"
+              fill="none" stroke="#8b6040" stroke-width="3"/>
+        <!-- Rose wheel -->
+        <circle cx="1570" cy="130" r="38" fill="none" stroke="#8b6040" stroke-width="2"/>
+        <circle cx="1570" cy="130" r="20" fill="none" stroke="#8b6040" stroke-width="1.5"/>
+        <!-- Spoke lines -->
+        <line x1="1570" y1="92" x2="1570" y2="168" stroke="#8b6040" stroke-width="1.2"/>
+        <line x1="1532" y1="130" x2="1608" y2="130" stroke="#8b6040" stroke-width="1.2"/>
+        <line x1="1543" y1="103" x2="1597" y2="157" stroke="#8b6040" stroke-width="1.2"/>
+        <line x1="1543" y1="157" x2="1597" y2="103" stroke="#8b6040" stroke-width="1.2"/>
+        <!-- Window glow -->
+        <path d="M 1500 100 L 1500 580 Q 1500 630 1570 630 Q 1640 630 1640 580 L 1640 100 Q 1570 40 1500 100 Z"
+              fill="#ffd27f" opacity="0.08"/>
+      </g>
+    </g>
+
+    <!-- COLUMNS: Gothic stone pillars dividing nave -->
+    <g id="columns" fill="#5c3d1e" stroke="#2a1a0a" stroke-width="2">
+      <!-- Left column (between cong and aisle) -->
+      <rect x="870" y="90" width="38" height="760" fill="url(#stone-grad)"/>
+      <rect x="862" y="90" width="54" height="30" fill="#7a5c38"/> <!-- capital base -->
+      <path d="M 862 90 Q 889 65 916 90" fill="#8b6040" stroke="#2a1a0a" stroke-width="1.5"/> <!-- capital arch -->
+      <!-- Column shadow -->
+      <rect x="900" y="90" width="10" height="760" fill="#1a0f05" opacity="0.4"/>
+
+      <!-- Right column (behind pulpit area, subtle) -->
+      <rect x="1680" y="90" width="30" height="680" fill="url(#stone-grad)" opacity="0.7"/>
+    </g>
+
+    <!-- GOTHIC ARCH FRAMING: Nave arches overhead -->
+    <g id="nave-arches" fill="none" stroke-width="8" opacity="0.7">
+      <!-- Left main arch (congregation nave) -->
+      <path d="M 40 90 L 40 460 Q 40 540 440 540 Q 840 540 840 460 L 840 90"
+            stroke="#5c3d1e" stroke-width="6" fill="#2a1a0a" fill-opacity="0.2"/>
+      <!-- Arch keystone -->
+      <path d="M 420 90 Q 440 65 460 90" stroke="#6b4a28" stroke-width="4" fill="#7a5c38" fill-opacity="0.4"/>
+
+      <!-- Right arch (chancel/pulpit area) -->
+      <path d="M 920 90 L 920 380 Q 920 440 1440 440 Q 1880 440 1880 380 L 1880 90"
+            stroke="#5c3d1e" stroke-width="5" fill="#2a1a0a" fill-opacity="0.15"/>
+    </g>
+  </g>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- FLOOR LAYER                                              -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <g id="floor">
+    <!-- Main floor -->
+    <rect x="0" y="820" width="1920" height="260" fill="url(#floor-grad)"/>
+    <!-- Floor boards suggestion -->
+    <line x1="0" y1="840" x2="1920" y2="840" stroke="#3d2a14" stroke-width="2" opacity="0.6"/>
+    <line x1="0" y1="870" x2="1920" y2="870" stroke="#3d2a14" stroke-width="1" opacity="0.3"/>
+    <line x1="0" y1="900" x2="1920" y2="900" stroke="#3d2a14" stroke-width="1" opacity="0.3"/>
+    <!-- Aisle -->
+    <rect x="850" y="750" width="120" height="330" fill="#3d2510" opacity="0.5"/>
+    <!-- Chancel step edge -->
+    <rect x="980" y="780" width="940" height="12" fill="#5c3d1e" opacity="0.8"/>
+  </g>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- CONGREGATION LAYER (left 55% of scene)                  -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <g id="congregation">
+
+    <!-- PEW ROW 1 (back/upper row) -->
+    <g id="pew-row-1">
+      <rect x="30" y="600" width="790" height="55" rx="4" fill="url(#pew-grad)" stroke="#2a1a0a" stroke-width="2"/>
+      <rect x="30" y="595" width="790" height="12" rx="2" fill="#a06a30"/> <!-- pew top rail -->
+      <rect x="30" y="650" width="790" height="8" rx="2" fill="#3d2a14"/> <!-- pew bottom rail -->
+      <!-- Pew end cap details -->
+      <rect x="30" y="598" width="14" height="62" rx="2" fill="#5c3d1e" stroke="#2a1a0a" stroke-width="1.5"/>
+      <rect x="806" y="598" width="14" height="62" rx="2" fill="#5c3d1e" stroke="#2a1a0a" stroke-width="1.5"/>
+    </g>
+
+    <!-- PEW ROW 2 (middle row) -->
+    <g id="pew-row-2">
+      <rect x="30" y="700" width="790" height="55" rx="4" fill="url(#pew-grad)" stroke="#2a1a0a" stroke-width="2"/>
+      <rect x="30" y="695" width="790" height="12" rx="2" fill="#a06a30"/>
+      <rect x="30" y="750" width="790" height="8" rx="2" fill="#3d2a14"/>
+      <rect x="30" y="698" width="14" height="62" rx="2" fill="#5c3d1e" stroke="#2a1a0a" stroke-width="1.5"/>
+      <rect x="806" y="698" width="14" height="62" rx="2" fill="#5c3d1e" stroke="#2a1a0a" stroke-width="1.5"/>
+    </g>
+
+    <!-- PEW ROW 3 (front row, closest) -->
+    <g id="pew-row-3">
+      <rect x="30" y="790" width="790" height="55" rx="4" fill="url(#pew-grad)" stroke="#2a1a0a" stroke-width="2"/>
+      <rect x="30" y="785" width="790" height="12" rx="2" fill="#a06a30"/>
+      <rect x="30" y="840" width="790" height="8" rx="2" fill="#3d2a14"/>
+      <rect x="30" y="788" width="14" height="62" rx="2" fill="#5c3d1e" stroke="#2a1a0a" stroke-width="1.5"/>
+      <rect x="806" y="788" width="14" height="62" rx="2" fill="#5c3d1e" stroke="#2a1a0a" stroke-width="1.5"/>
+    </g>
+
+    <!-- CONGREGATION FIGURES -->
+    <!-- Row 1 figures (back, seated, partially visible above pew back) -->
+    <!-- Each figure group: id="cong-N" with transform-origin at base of figure for sway -->
+
+    <!-- Figure 1: Man with top hat, left back -->
+    <g id="cong-1" class="cong-figure" style="transform-origin: 110px 598px">
+      <!-- Top hat -->
+      <rect x="88" y="510" width="44" height="50" rx="2" fill="#1a0f05" stroke="#0a0504" stroke-width="1.5"/>
+      <rect x="78" y="557" width="64" height="8" rx="3" fill="#1a0f05" stroke="#0a0504" stroke-width="1"/>
+      <!-- Head -->
+      <ellipse cx="110" cy="493" rx="24" ry="27" fill="#c4956a" stroke="#2a1a0a" stroke-width="1.5"/>
+      <!-- Face detail: sideburns (woodcut style) -->
+      <path d="M 88 485 Q 85 500 88 512" stroke="#2a1a0a" stroke-width="2" fill="none"/>
+      <path d="M 132 485 Q 135 500 132 512" stroke="#2a1a0a" stroke-width="2" fill="none"/>
+      <!-- Collar/cravat -->
+      <path d="M 96 515 L 110 528 L 124 515" fill="#e8d5a8" stroke="#2a1a0a" stroke-width="1"/>
+      <!-- Coat shoulders visible above pew -->
+      <path d="M 70 540 Q 75 520 96 515 L 110 528 L 124 515 Q 145 520 150 540 L 150 598 L 70 598 Z"
+            fill="#1a0f05" stroke="#2a1a0a" stroke-width="1.5"/>
+    </g>
+
+    <!-- Figure 2: Woman with bonnet -->
+    <g id="cong-2" class="cong-figure" style="transform-origin: 210px 598px">
+      <!-- Bonnet -->
+      <path d="M 178 510 Q 185 465 210 462 Q 235 465 242 510 L 245 555 Q 210 565 175 555 Z"
+            fill="#8b5e3c" stroke="#2a1a0a" stroke-width="1.5"/>
+      <path d="M 178 510 Q 210 500 242 510" fill="none" stroke="#2a1a0a" stroke-width="1" opacity="0.5"/>
+      <!-- Bonnet ribbon -->
+      <path d="M 175 540 Q 170 560 175 580" stroke="#c4a882" stroke-width="2" fill="none"/>
+      <!-- Head -->
+      <ellipse cx="210" cy="498" rx="22" ry="24" fill="#c4956a" stroke="#2a1a0a" stroke-width="1.5"/>
+      <!-- Collar -->
+      <path d="M 192 518 L 210 530 L 228 518" fill="#e8d5a8" stroke="#2a1a0a" stroke-width="1"/>
+      <!-- Dress bodice (dark) -->
+      <path d="M 172 545 Q 178 525 192 518 L 210 530 L 228 518 Q 242 525 248 545 L 248 598 L 172 598 Z"
+            fill="#3d2a14" stroke="#2a1a0a" stroke-width="1.5"/>
+      <!-- Decorative brooch -->
+      <circle cx="210" cy="535" r="4" fill="#c4a882" stroke="#2a1a0a" stroke-width="0.8"/>
+    </g>
+
+    <!-- Figure 3: Older gentleman, bald head -->
+    <g id="cong-3" class="cong-figure" style="transform-origin: 305px 598px">
+      <!-- Head (bald) -->
+      <ellipse cx="305" cy="493" rx="26" ry="28" fill="#c4956a" stroke="#2a1a0a" stroke-width="1.5"/>
+      <!-- Bald shine mark (woodcut) -->
+      <path d="M 292 478 Q 300 472 312 476" stroke="#e8d5a8" stroke-width="1.5" fill="none" opacity="0.5"/>
+      <!-- Side whiskers -->
+      <path d="M 280 490 Q 276 505 280 518" stroke="#5c3d1e" stroke-width="3" fill="none"/>
+      <path d="M 330 490 Q 334 505 330 518" stroke="#5c3d1e" stroke-width="3" fill="none"/>
+      <!-- Collar -->
+      <path d="M 288 516 L 305 528 L 322 516" fill="#e8d5a8" stroke="#2a1a0a" stroke-width="1"/>
+      <!-- Dark coat -->
+      <path d="M 265 548 Q 272 525 288 516 L 305 528 L 322 516 Q 338 525 345 548 L 345 598 L 265 598 Z"
+            fill="#1a0f05" stroke="#2a1a0a" stroke-width="1.5"/>
+    </g>
+
+    <!-- Figure 4: Young man, hat in lap (head visible) -->
+    <g id="cong-4" class="cong-figure" style="transform-origin: 400px 598px">
+      <!-- Hair (dark, side parted) -->
+      <path d="M 372 472 Q 378 460 400 458 Q 422 460 428 472 L 430 490 Q 400 485 370 490 Z"
+            fill="#2a1a0a" stroke="#0a0504" stroke-width="1"/>
+      <!-- Head -->
+      <ellipse cx="400" cy="492" rx="24" ry="26" fill="#c4956a" stroke="#2a1a0a" stroke-width="1.5"/>
+      <!-- Ear detail -->
+      <ellipse cx="376" cy="493" rx="6" ry="8" fill="#c4956a" stroke="#2a1a0a" stroke-width="1"/>
+      <!-- Collar/necktie -->
+      <path d="M 382 514 L 400 526 L 418 514" fill="#e8d5a8" stroke="#2a1a0a" stroke-width="1"/>
+      <line x1="400" y1="524" x2="400" y2="546" stroke="#2a1a0a" stroke-width="1.5"/>
+      <!-- Coat (lighter, younger) -->
+      <path d="M 362 548 Q 368 526 382 514 L 400 526 L 418 514 Q 432 526 438 548 L 438 598 L 362 598 Z"
+            fill="#2a1a0a" stroke="#2a1a0a" stroke-width="1.5"/>
+    </g>
+
+    <!-- Figure 5: Woman, back row right -->
+    <g id="cong-5" class="cong-figure" style="transform-origin: 510px 598px">
+      <!-- Hair in bun -->
+      <ellipse cx="510" cy="460" rx="20" ry="16" fill="#3d2a14" stroke="#2a1a0a" stroke-width="1.5"/>
+      <circle cx="510" cy="450" r="10" fill="#2a1a0a" stroke="#1a0f05" stroke-width="1"/>
+      <!-- Head -->
+      <ellipse cx="510" cy="484" rx="22" ry="24" fill="#c4956a" stroke="#2a1a0a" stroke-width="1.5"/>
+      <!-- Collar (white lace suggestion) -->
+      <path d="M 492 503 Q 510 515 528 503" fill="#e8d5a8" stroke="#c4a882" stroke-width="1" opacity="0.9"/>
+      <!-- Dress bodice (dark, Victorian) -->
+      <path d="M 474 540 Q 480 518 492 503 Q 510 515 528 503 Q 540 518 546 540 L 546 598 L 474 598 Z"
+            fill="#1e1008" stroke="#2a1a0a" stroke-width="1.5"/>
+    </g>
+
+    <!-- Figure 6: Man, back row far right, partially cropped -->
+    <g id="cong-6" class="cong-figure" style="transform-origin: 640px 598px">
+      <!-- Top hat (tilted slightly) -->
+      <rect x="614" y="498" width="40" height="46" rx="2" fill="#1a0f05" stroke="#0a0504" stroke-width="1.5"
+            transform="rotate(-3, 634, 521)"/>
+      <rect x="606" y="541" width="58" height="7" rx="2" fill="#1a0f05" stroke="#0a0504" stroke-width="1"/>
+      <!-- Head (slightly turned) -->
+      <ellipse cx="634" cy="480" rx="23" ry="25" fill="#c4956a" stroke="#2a1a0a" stroke-width="1.5"/>
+      <!-- Side profile detail -->
+      <path d="M 613 478 Q 610 492 613 504" stroke="#2a1a0a" stroke-width="1.5" fill="none"/>
+      <!-- Coat shoulders -->
+      <path d="M 594 545 Q 600 522 613 510 L 634 522 L 655 510 Q 668 522 674 545 L 674 598 L 594 598 Z"
+            fill="#1a0f05" stroke="#2a1a0a" stroke-width="1.5"/>
+    </g>
+
+    <!-- Figure 7: Child (middle row, peeking over pew) -->
+    <g id="cong-7" class="cong-figure" style="transform-origin: 150px 698px">
+      <!-- Small head -->
+      <ellipse cx="150" cy="666" rx="18" ry="20" fill="#c4956a" stroke="#2a1a0a" stroke-width="1.5"/>
+      <!-- Bow/hair ribbon -->
+      <path d="M 135 652 Q 142 646 150 652 Q 158 646 165 652" fill="none" stroke="#8b5e3c" stroke-width="2"/>
+      <!-- Coat collar visible above pew line -->
+      <path d="M 132 685 Q 140 676 150 680 Q 160 676 168 685 L 168 698 L 132 698 Z"
+            fill="#3d2a14" stroke="#2a1a0a" stroke-width="1.5"/>
+    </g>
+
+    <!-- Figure 8: Man turning to listen (middle row) -->
+    <g id="cong-8" class="cong-figure" style="transform-origin: 260px 698px">
+      <!-- Profile: slightly turned right toward pulpit -->
+      <!-- Top hat -->
+      <rect x="242" y="596" width="38" height="46" rx="2" fill="#1a0f05" stroke="#0a0504" stroke-width="1.5"
+            transform="rotate(5, 261, 619)"/>
+      <rect x="236" y="638" width="54" height="7" rx="2" fill="#1a0f05" stroke="#0a0504" stroke-width="1"/>
+      <!-- Head (slightly rotated right) -->
+      <ellipse cx="262" cy="577" rx="22" ry="24" fill="#c4956a" stroke="#2a1a0a" stroke-width="1.5"
+               transform="rotate(8, 262, 577)"/>
+      <!-- Ear visible -->
+      <ellipse cx="282" cy="577" rx="5" ry="7" fill="#c4956a" stroke="#2a1a0a" stroke-width="1"
+               transform="rotate(8, 262, 577)"/>
+      <!-- Coat -->
+      <path d="M 228 648 Q 234 626 248 614 L 262 626 L 276 614 Q 290 626 296 648 L 296 698 L 228 698 Z"
+            fill="#2a1a0a" stroke="#2a1a0a" stroke-width="1.5"/>
+    </g>
+
+    <!-- Figure 9: Elderly woman with shawl (middle row) -->
+    <g id="cong-9" class="cong-figure" style="transform-origin: 380px 698px">
+      <!-- Bonnet/cap -->
+      <path d="M 354 582 Q 360 560 380 558 Q 400 560 406 582 L 408 618 Q 380 626 352 618 Z"
+            fill="#7a5c38" stroke="#2a1a0a" stroke-width="1.5"/>
+      <!-- Head -->
+      <ellipse cx="380" cy="572" rx="21" ry="22" fill="#c4956a" stroke="#2a1a0a" stroke-width="1.5"/>
+      <!-- Shawl draped over shoulders -->
+      <path d="M 340 630 Q 350 612 368 605 Q 380 612 392 605 Q 410 612 420 630 L 425 698 L 335 698 Z"
+            fill="#5c3d1e" stroke="#2a1a0a" stroke-width="1.5"/>
+      <!-- Shawl fringe hint -->
+      <path d="M 340 630 Q 345 640 340 650" stroke="#7a5c38" stroke-width="1.5" fill="none"/>
+      <path d="M 420 630 Q 415 640 420 650" stroke="#7a5c38" stroke-width="1.5" fill="none"/>
+    </g>
+
+    <!-- Figure 10: Man, front row, clearly visible -->
+    <g id="cong-10" class="cong-figure" style="transform-origin: 200px 790px">
+      <!-- Top hat -->
+      <rect x="176" y="682" width="48" height="56" rx="3" fill="#0a0504" stroke="#0a0504" stroke-width="1.5"/>
+      <rect x="166" y="734" width="68" height="9" rx="3" fill="#0a0504" stroke="#0a0504" stroke-width="1"/>
+      <!-- Head -->
+      <ellipse cx="200" cy="665" rx="28" ry="30" fill="#c4956a" stroke="#2a1a0a" stroke-width="2"/>
+      <!-- Face details: Victorian moustache -->
+      <path d="M 184 674 Q 192 680 200 677 Q 208 680 216 674" stroke="#2a1a0a" stroke-width="2" fill="none"/>
+      <!-- Sideburns -->
+      <path d="M 173 660 Q 169 675 173 688" stroke="#3d2a14" stroke-width="4" fill="none" stroke-linecap="round"/>
+      <path d="M 227 660 Q 231 675 227 688" stroke="#3d2a14" stroke-width="4" fill="none" stroke-linecap="round"/>
+      <!-- Cravat/collar -->
+      <path d="M 180 690 L 200 706 L 220 690" fill="#e8d5a8" stroke="#2a1a0a" stroke-width="1.5"/>
+      <!-- Cravat knot -->
+      <ellipse cx="200" cy="694" rx="8" ry="6" fill="#c4a882" stroke="#2a1a0a" stroke-width="1"/>
+      <!-- Coat body -->
+      <path d="M 150 760 Q 158 726 178 710 L 200 724 L 222 710 Q 242 726 250 760 L 250 790 L 150 790 Z"
+            fill="#0a0504" stroke="#2a1a0a" stroke-width="2"/>
+      <!-- Lapels -->
+      <path d="M 178 710 Q 188 730 200 724" fill="none" stroke="#2a1a0a" stroke-width="1.5"/>
+      <path d="M 222 710 Q 212 730 200 724" fill="none" stroke="#2a1a0a" stroke-width="1.5"/>
+    </g>
+
+    <!-- Figure 11: Woman with hat, front row -->
+    <g id="cong-11" class="cong-figure" style="transform-origin: 360px 790px">
+      <!-- Victorian hat with feather -->
+      <ellipse cx="360" cy="676" rx="42" ry="16" fill="#3d2a14" stroke="#2a1a0a" stroke-width="1.5"/>
+      <path d="M 378 676 Q 390 658 402 640 Q 395 660 398 676" fill="#5c3d1e" stroke="#2a1a0a" stroke-width="1"/>
+      <!-- Head -->
+      <ellipse cx="360" cy="696" rx="26" ry="28" fill="#c4956a" stroke="#2a1a0a" stroke-width="2"/>
+      <!-- Collar (white) -->
+      <path d="M 338 718 Q 348 726 360 730 Q 372 726 382 718" fill="#e8d5a8" stroke="#2a1a0a" stroke-width="1.5"/>
+      <!-- Dress -->
+      <path d="M 310 770 Q 322 736 338 718 Q 360 730 382 718 Q 398 736 410 770 L 410 790 L 310 790 Z"
+            fill="#2a1a0a" stroke="#2a1a0a" stroke-width="2"/>
+    </g>
+
+    <!-- Figure 12: Man leaning forward (front row, interested) -->
+    <g id="cong-12" class="cong-figure" style="transform-origin: 540px 790px">
+      <!-- No hat (younger, attentive, leaning forward) -->
+      <!-- Hair -->
+      <path d="M 510 658 Q 516 644 540 642 Q 564 644 570 658 L 572 680 Q 540 675 508 680 Z"
+            fill="#1a0f05" stroke="#0a0504" stroke-width="1"/>
+      <!-- Head (slightly tilted forward) -->
+      <ellipse cx="540" cy="680" rx="26" ry="28" fill="#c4956a" stroke="#2a1a0a" stroke-width="2"
+               transform="rotate(-5, 540, 680)"/>
+      <!-- Collar -->
+      <path d="M 518 696 L 540 710 L 562 696" fill="#e8d5a8" stroke="#2a1a0a" stroke-width="1.5"/>
+      <!-- Coat body -->
+      <path d="M 494 760 Q 502 726 518 710 L 540 722 L 562 710 Q 578 726 586 760 L 586 790 L 494 790 Z"
+            fill="#0a0504" stroke="#2a1a0a" stroke-width="2"/>
+    </g>
+
+    <!-- Congregation area shadow overlay (depth) -->
+    <rect x="0" y="450" width="870" height="630" fill="url(#cross-hatch)" opacity="0.2"/>
+  </g>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- AISLE / TRANSITION ZONE                                  -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <g id="aisle">
+    <!-- Aisle floor runner -->
+    <rect x="870" y="720" width="130" height="360" fill="#3d2510" opacity="0.6"/>
+    <!-- Chancel step -->
+    <rect x="980" y="796" width="940" height="24" rx="4" fill="#5c3d1e" stroke="#2a1a0a" stroke-width="2"/>
+    <rect x="980" y="816" width="940" height="10" fill="#3d2a14" opacity="0.7"/>
+  </g>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- PULPIT & SPURGEON LAYER (right 45% of scene)            -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <g id="chancel">
+
+    <!-- PULPIT PLATFORM / DAIS -->
+    <g id="pulpit-dais">
+      <!-- Raised platform base -->
+      <rect x="1050" y="700" width="820" height="130" rx="6" fill="#5c3520" stroke="#2a1a0a" stroke-width="3"/>
+      <!-- Platform top surface -->
+      <rect x="1050" y="700" width="820" height="20" rx="3" fill="#8b5e3c" stroke="#2a1a0a" stroke-width="1.5"/>
+      <!-- Platform front face paneling -->
+      <rect x="1070" y="722" width="100" height="80" rx="3" fill="#6b4020" stroke="#2a1a0a" stroke-width="1.5"/>
+      <rect x="1190" y="722" width="100" height="80" rx="3" fill="#6b4020" stroke="#2a1a0a" stroke-width="1.5"/>
+      <rect x="1310" y="722" width="100" height="80" rx="3" fill="#6b4020" stroke="#2a1a0a" stroke-width="1.5"/>
+      <rect x="1430" y="722" width="100" height="80" rx="3" fill="#6b4020" stroke="#2a1a0a" stroke-width="1.5"/>
+      <!-- Front panel decorative carved line -->
+      <rect x="1070" y="798" width="780" height="4" fill="#3d2010" opacity="0.7"/>
+    </g>
+
+    <!-- THE PULPIT (grand Victorian wooden lectern) -->
+    <g id="pulpit-furniture">
+      <!-- Main pulpit body -->
+      <path d="M 1190 480 L 1160 700 L 1520 700 L 1490 480 Z"
+            fill="url(#pulpit-grad)" stroke="#2a1a0a" stroke-width="3"/>
+      <!-- Pulpit top ledge / reading desk surface -->
+      <rect x="1170" y="466" width="340" height="28" rx="4" fill="#a06a30" stroke="#2a1a0a" stroke-width="2.5"/>
+      <!-- Angled reading surface -->
+      <path d="M 1175 466 L 1505 466 L 1500 450 L 1180 450 Z" fill="#c08040" stroke="#2a1a0a" stroke-width="2"/>
+      <!-- Bible / open book on pulpit -->
+      <path d="M 1280 440 Q 1340 430 1400 440 L 1410 460 Q 1340 455 1270 460 Z"
+            fill="#e8d5a8" stroke="#8b5e3c" stroke-width="1.5"/>
+      <line x1="1340" y1="432" x2="1340" y2="460" stroke="#8b5e3c" stroke-width="1.5"/>
+      <!-- Bible text lines (woodcut style) -->
+      <line x1="1285" y1="445" x2="1335" y2="443" stroke="#2a1a0a" stroke-width="0.8" opacity="0.6"/>
+      <line x1="1283" y1="450" x2="1333" y2="449" stroke="#2a1a0a" stroke-width="0.8" opacity="0.6"/>
+      <line x1="1285" y1="455" x2="1332" y2="455" stroke="#2a1a0a" stroke-width="0.8" opacity="0.6"/>
+      <line x1="1348" y1="443" x2="1400" y2="441" stroke="#2a1a0a" stroke-width="0.8" opacity="0.6"/>
+      <line x1="1348" y1="449" x2="1402" y2="447" stroke="#2a1a0a" stroke-width="0.8" opacity="0.6"/>
+      <line x1="1350" y1="455" x2="1403" y2="453" stroke="#2a1a0a" stroke-width="0.8" opacity="0.6"/>
+
+      <!-- Pulpit front panel: carved Gothic arch motif -->
+      <path d="M 1225 540 L 1225 680 Q 1225 700 1260 700 Q 1295 700 1295 680 L 1295 540 Q 1260 510 1225 540 Z"
+            fill="#a06a30" stroke="#2a1a0a" stroke-width="1.5" opacity="0.7"/>
+      <path d="M 1385 540 L 1385 680 Q 1385 700 1420 700 Q 1455 700 1455 680 L 1455 540 Q 1420 510 1385 540 Z"
+            fill="#a06a30" stroke="#2a1a0a" stroke-width="1.5" opacity="0.7"/>
+      <!-- Carved dividing column -->
+      <rect x="1330" y="520" width="18" height="180" rx="4" fill="#8b5e3c" stroke="#2a1a0a" stroke-width="1.5"/>
+      <!-- Pulpit shadow -->
+      <path d="M 1190 480 L 1160 700 L 1200 700 L 1230 480 Z" fill="#1a0f05" opacity="0.3"/>
+      <!-- Pulpit side steps -->
+      <rect x="1145" y="620" width="50" height="80" rx="2" fill="#6b4020" stroke="#2a1a0a" stroke-width="1.5"/>
+      <rect x="1135" y="660" width="60" height="40" rx="2" fill="#7a4a25" stroke="#2a1a0a" stroke-width="1.5"/>
+      <!-- Step shadow -->
+      <rect x="1190" y="700" width="15" height="5" fill="#1a0f05" opacity="0.5"/>
+    </g>
+
+    <!-- ─────────────────────────────────────────── -->
+    <!-- SPURGEON — Modular animated figure          -->
+    <!-- transform-origin: 1340, 700 (feet/base)    -->
+    <!-- ─────────────────────────────────────────── -->
+    <g id="spurgeon" style="transform-origin: 1340px 700px">
+
+      <!-- SPURGEON BODY / COAT                                     -->
+      <!-- This group handles the full-body idle sway and lean       -->
+      <g id="spurgeon-body" style="transform-origin: 1340px 660px">
+        <!-- Coat body: broad-shouldered Victorian preacher's frock coat -->
+        <path id="spurgeon-coat"
+              d="M 1240 700 L 1255 490 Q 1265 460 1290 452 L 1340 445 L 1390 452 Q 1415 460 1425 490 L 1440 700 Z"
+              fill="url(#coat-grad)" stroke="#0a0504" stroke-width="3"/>
+        <!-- Coat lapels -->
+        <path d="M 1290 452 Q 1308 490 1340 500 Q 1372 490 1390 452"
+              fill="none" stroke="#1a0f05" stroke-width="2"/>
+        <path d="M 1290 452 L 1310 510 L 1340 500" fill="#0f0803" stroke="#0a0504" stroke-width="1.5"/>
+        <path d="M 1390 452 L 1370 510 L 1340 500" fill="#0f0803" stroke="#0a0504" stroke-width="1.5"/>
+        <!-- White shirt / waistcoat front -->
+        <path d="M 1310 498 L 1340 500 L 1370 498 L 1375 570 L 1340 575 L 1305 570 Z"
+              fill="#e8d5a8" stroke="#c4a882" stroke-width="1"/>
+        <!-- Waistcoat buttons -->
+        <circle cx="1340" cy="518" r="3.5" fill="#c4a882" stroke="#2a1a0a" stroke-width="0.8"/>
+        <circle cx="1340" cy="534" r="3.5" fill="#c4a882" stroke="#2a1a0a" stroke-width="0.8"/>
+        <circle cx="1340" cy="550" r="3.5" fill="#c4a882" stroke="#2a1a0a" stroke-width="0.8"/>
+        <!-- Coat skirts (below waist) -->
+        <path d="M 1255 580 L 1240 700 L 1310 700 L 1320 600 Z"
+              fill="#0a0504" stroke="#0a0504" stroke-width="2"/>
+        <path d="M 1425 580 L 1440 700 L 1370 700 L 1360 600 Z"
+              fill="#0a0504" stroke="#0a0504" stroke-width="2"/>
+        <!-- Coat rear suggestion -->
+        <rect x="1318" y="575" width="44" height="125" fill="#0a0504" stroke="#0a0504" stroke-width="1"/>
+        <!-- Coat shadow on left side -->
+        <path d="M 1240 700 L 1255 490 L 1275 490 L 1260 700 Z" fill="#060302" opacity="0.5"/>
+      </g>
+
+      <!-- SPURGEON RIGHT ARM (raised for emphatic gesture)         -->
+      <!-- transform-origin: shoulder point 1415, 490               -->
+      <g id="spurgeon-arm-right" style="transform-origin: 1415px 490px">
+        <!-- Upper arm -->
+        <path d="M 1415 490 Q 1440 510 1460 540 L 1450 560 Q 1428 535 1405 510 Z"
+              fill="#0a0504" stroke="#0a0504" stroke-width="2"/>
+        <!-- Forearm + cuff -->
+        <path d="M 1460 540 Q 1490 570 1505 600 L 1492 615 Q 1478 588 1447 558 Z"
+              fill="#0a0504" stroke="#0a0504" stroke-width="2"/>
+        <!-- White cuff -->
+        <ellipse cx="1500" cy="608" rx="14" ry="10" fill="#e8d5a8" stroke="#c4a882" stroke-width="1.5"/>
+        <!-- Hand (open, reaching/pointing downward at rest) -->
+        <path d="M 1490 612 Q 1500 625 1512 618 Q 1516 608 1506 602 Z"
+              fill="#c4956a" stroke="#2a1a0a" stroke-width="1.5"/>
+        <!-- Fingers suggestion -->
+        <path d="M 1504 600 Q 1515 605 1515 615" stroke="#2a1a0a" stroke-width="1" fill="none"/>
+        <path d="M 1506 598 Q 1518 600 1520 610" stroke="#2a1a0a" stroke-width="1" fill="none"/>
+      </g>
+
+      <!-- SPURGEON LEFT ARM (holds Bible/rests on pulpit ledge)    -->
+      <!-- transform-origin: shoulder point 1265, 490               -->
+      <g id="spurgeon-arm-left" style="transform-origin: 1265px 490px">
+        <!-- Upper arm (going down to pulpit) -->
+        <path d="M 1265 490 Q 1240 515 1230 550 L 1244 558 Q 1252 525 1275 502 Z"
+              fill="#0a0504" stroke="#0a0504" stroke-width="2"/>
+        <!-- Forearm resting forward on pulpit -->
+        <path d="M 1230 550 Q 1220 575 1218 610 L 1233 614 Q 1235 582 1245 558 Z"
+              fill="#0a0504" stroke="#0a0504" stroke-width="2"/>
+        <!-- White cuff -->
+        <ellipse cx="1224" cy="614" rx="12" ry="9" fill="#e8d5a8" stroke="#c4a882" stroke-width="1.5"/>
+        <!-- Hand on pulpit -->
+        <path d="M 1216 616 Q 1210 626 1222 632 Q 1236 630 1238 618 Z"
+              fill="#c4956a" stroke="#2a1a0a" stroke-width="1.5"/>
+      </g>
+
+      <!-- SPURGEON HEAD                                             -->
+      <!-- transform-origin: neck point 1340, 450                   -->
+      <g id="spurgeon-head" style="transform-origin: 1340px 450px">
+        <!-- Neck -->
+        <rect x="1324" y="440" width="32" height="30" rx="6" fill="#c4956a" stroke="#2a1a0a" stroke-width="1.5"/>
+        <!-- White collar/cravat -->
+        <path d="M 1308 462 Q 1318 472 1340 468 Q 1362 472 1372 462"
+              fill="#e8d5a8" stroke="#c4a882" stroke-width="1.5"/>
+        <!-- Cravat bow -->
+        <path d="M 1322 468 Q 1330 480 1340 476 Q 1350 480 1358 468"
+              fill="#e8d5a8" stroke="#c4a882" stroke-width="1.5"/>
+        <!-- Head: Spurgeon was notably stout with a round face -->
+        <ellipse cx="1340" cy="395" rx="58" ry="58" fill="#c4956a" stroke="#2a1a0a" stroke-width="2.5"/>
+        <!-- Hair: dark, side-parted, 1860s style -->
+        <path d="M 1282 382 Q 1290 338 1340 332 Q 1390 338 1398 382"
+              fill="#2a1a0a" stroke="#1a0f05" stroke-width="1.5"/>
+        <path d="M 1282 382 Q 1282 370 1290 365 Q 1295 380 1298 395"
+              fill="#2a1a0a" stroke="#1a0f05" stroke-width="1"/>
+        <!-- Sideburns — Spurgeon had full, dark sideburns -->
+        <path d="M 1283 372 Q 1278 390 1280 415 Q 1282 430 1286 440"
+              stroke="#2a1a0a" stroke-width="8" fill="none" stroke-linecap="round"/>
+        <path d="M 1397 372 Q 1402 390 1400 415 Q 1398 430 1394 440"
+              stroke="#2a1a0a" stroke-width="8" fill="none" stroke-linecap="round"/>
+        <!-- Ears -->
+        <ellipse cx="1283" cy="400" rx="10" ry="13" fill="#c4956a" stroke="#2a1a0a" stroke-width="1.5"/>
+        <ellipse cx="1397" cy="400" rx="10" ry="13" fill="#c4956a" stroke="#2a1a0a" stroke-width="1.5"/>
+        <!-- Face details: Spurgeon's distinctive full moustache and features -->
+        <!-- Eyes -->
+        <ellipse cx="1315" cy="390" rx="9" ry="7" fill="#e8d5a8" stroke="#2a1a0a" stroke-width="1.5"/>
+        <ellipse cx="1365" cy="390" rx="9" ry="7" fill="#e8d5a8" stroke="#2a1a0a" stroke-width="1.5"/>
+        <circle cx="1316" cy="391" r="5" fill="#3d2a14"/>
+        <circle cx="1366" cy="391" r="5" fill="#3d2a14"/>
+        <!-- Eye highlight -->
+        <circle cx="1318" cy="389" r="1.5" fill="#f5e6c8" opacity="0.8"/>
+        <circle cx="1368" cy="389" r="1.5" fill="#f5e6c8" opacity="0.8"/>
+        <!-- Eyebrows (expressive) -->
+        <path d="M 1305 379 Q 1315 373 1325 378" stroke="#2a1a0a" stroke-width="3" fill="none" stroke-linecap="round"/>
+        <path d="M 1355 378 Q 1365 373 1375 379" stroke="#2a1a0a" stroke-width="3" fill="none" stroke-linecap="round"/>
+        <!-- Nose (broad, rounded) -->
+        <path d="M 1336 393 Q 1332 408 1328 416 Q 1340 420 1352 416 Q 1348 408 1344 393"
+              fill="none" stroke="#2a1a0a" stroke-width="1.5"/>
+        <ellipse cx="1330" cy="415" rx="5" ry="3.5" fill="#b07850" stroke="#2a1a0a" stroke-width="0.8"/>
+        <ellipse cx="1350" cy="415" rx="5" ry="3.5" fill="#b07850" stroke="#2a1a0a" stroke-width="0.8"/>
+        <!-- Mouth — slightly open mid-sermon -->
+        <path d="M 1315 428 Q 1340 440 1365 428" stroke="#2a1a0a" stroke-width="2" fill="none"/>
+        <path d="M 1320 429 Q 1340 437 1360 429 L 1358 435 Q 1340 445 1322 435 Z"
+              fill="#5c2a14" stroke="#2a1a0a" stroke-width="1"/>
+        <!-- Full moustache — Spurgeon's signature -->
+        <path d="M 1308 425 Q 1324 420 1340 424 Q 1356 420 1372 425 Q 1360 432 1340 428 Q 1320 432 1308 425 Z"
+              fill="#1a0f05" stroke="#1a0f05" stroke-width="0.5"/>
+        <!-- Chin dimple suggestion -->
+        <path d="M 1335 442 Q 1340 446 1345 442" stroke="#2a1a0a" stroke-width="1" fill="none" opacity="0.5"/>
+        <!-- Light forehead sheen (gaslight on face) -->
+        <ellipse cx="1340" cy="368" rx="22" ry="12" fill="#e8d5a8" opacity="0.12"/>
+      </g>
+
+      <!-- SPURGEON SHADOW on platform -->
+      <ellipse cx="1340" cy="702" rx="70" ry="10" fill="#0a0504" opacity="0.45"/>
+    </g>
+
+    <!-- Gaslight lamp fixture near pulpit -->
+    <g id="lamp-pulpit" opacity="0.9">
+      <!-- Arm bracket from wall -->
+      <path d="M 1480 300 Q 1530 310 1540 350" fill="none" stroke="#5c3d1e" stroke-width="6"/>
+      <!-- Lamp globe -->
+      <circle cx="1540" cy="358" r="24" fill="#ffd27f" stroke="#7a5c38" stroke-width="2"/>
+      <circle cx="1540" cy="358" r="18" fill="#ffeaa0" opacity="0.8"/>
+      <!-- Lamp glow burst (soft) -->
+      <circle cx="1540" cy="358" r="60" fill="#ffd27f" opacity="0.08"/>
+      <!-- Flame flicker suggestion -->
+      <ellipse cx="1540" cy="347" rx="4" ry="7" fill="#ff9900" opacity="0.7"/>
+    </g>
+
+    <!-- Gaslight lamp fixture left of pulpit -->
+    <g id="lamp-left" opacity="0.7">
+      <path d="M 1020 280 Q 1050 295 1055 330" fill="none" stroke="#5c3d1e" stroke-width="5"/>
+      <circle cx="1055" cy="338" r="20" fill="#ffd27f" stroke="#7a5c38" stroke-width="2"/>
+      <circle cx="1055" cy="338" r="15" fill="#ffeaa0" opacity="0.8"/>
+      <circle cx="1055" cy="338" r="50" fill="#ffd27f" opacity="0.06"/>
+      <ellipse cx="1055" cy="328" rx="3.5" ry="6" fill="#ff9900" opacity="0.7"/>
+    </g>
+  </g>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- FOREGROUND DEPTH / VIGNETTE                             -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <g id="foreground-vignette" pointer-events="none">
+    <!-- Bottom vignette -->
+    <rect x="0" y="880" width="1920" height="200" fill="url(#floor-grad)" opacity="0.7"/>
+    <!-- Side vignettes -->
+    <rect x="0" y="0" width="60" height="1080" fill="#1a0f05" opacity="0.6"/>
+    <rect x="1860" y="0" width="60" height="1080" fill="#1a0f05" opacity="0.6"/>
+    <!-- Top vignette -->
+    <rect x="0" y="0" width="1920" height="60" fill="#0a0504" opacity="0.8"/>
+    <!-- Woodcut texture overlay (subtle, whole scene) -->
+    <rect x="0" y="0" width="1920" height="1080" fill="url(#hatch)" opacity="0.06"/>
+  </g>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- CAPTION ZONE GUIDE (visual reference only, hidden)      -->
+  <!-- Position: upper-left, above congregation               -->
+  <!-- x:40 y:95 w:820 h:350 — used by HTML overlay           -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- rect x="40" y="95" width="820" height="350" fill="none" stroke="red" opacity="0.2"/ -->
+</svg>

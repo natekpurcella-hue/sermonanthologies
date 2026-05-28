@@ -1,0 +1,185 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.sermons/pipeline/sermon_record.schema.json",
+  "title": "Sermon Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "sermon_id",
+    "author_id",
+    "author_name",
+    "title",
+    "filename",
+    "rights_status",
+    "themes",
+    "status",
+    "word_count"
+  ],
+  "properties": {
+    "sermon_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "author_id": {
+      "type": "string"
+    },
+    "author_name": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "index_section": {
+      "type": ["string", "null"]
+    },
+    "index_order": {
+      "type": ["integer", "null"],
+      "minimum": 1
+    },
+    "scripture_reference": {
+      "type": ["string", "null"]
+    },
+    "filename": {
+      "type": "string"
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "source_id": {
+          "type": ["string", "null"]
+        },
+        "canonical_url": {
+          "type": ["string", "null"]
+        },
+        "retrieved_at": {
+          "type": ["string", "null"],
+          "format": "date-time"
+        },
+        "raw_checksum": {
+          "type": ["string", "null"]
+        },
+        "cleaner": {
+          "type": ["string", "null"]
+        },
+        "source_notes": {
+          "type": ["string", "null"]
+        }
+      }
+    },
+    "rights_status": {
+      "type": "string",
+      "enum": [
+        "public_domain",
+        "public_domain_candidate",
+        "licensed",
+        "permissioned",
+        "blocked",
+        "blocked_pending_permission",
+        "unknown"
+      ]
+    },
+    "rights_notes": {
+      "type": ["string", "null"]
+    },
+    "themes": {
+      "type": "array",
+      "minItems": 0,
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "candidate",
+        "rights_review",
+        "source_selected",
+        "retrieved_raw",
+        "cleaned",
+        "metadata_ready",
+        "text_review",
+        "tts_ready",
+        "audio_generating",
+        "audio_review",
+        "video_ready",
+        "youtube_draft",
+        "publication_review",
+        "published",
+        "anthology_ready",
+        "blocked"
+      ]
+    },
+    "word_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "anthologies": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tts": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "voice_seed": {
+          "type": ["string", "null"]
+        },
+        "prompt_text": {
+          "type": ["string", "null"]
+        },
+        "job_id": {
+          "type": ["string", "null"]
+        },
+        "status": {
+          "type": ["string", "null"]
+        },
+        "output_dir": {
+          "type": ["string", "null"]
+        }
+      }
+    },
+    "youtube": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "long_form_video_id": {
+          "type": ["string", "null"]
+        },
+        "long_form_status": {
+          "type": ["string", "null"]
+        },
+        "short_video_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "rights_approved": {
+          "type": "boolean"
+        },
+        "text_approved": {
+          "type": "boolean"
+        },
+        "audio_approved": {
+          "type": "boolean"
+        },
+        "publication_approved": {
+          "type": "boolean"
+        },
+        "review_notes": {
+          "type": ["string", "null"]
+        }
+      }
+    }
+  }
+}

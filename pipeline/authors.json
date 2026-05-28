@@ -1,0 +1,80 @@
+{
+  "authors": [
+    {
+      "author_id": "spurgeon",
+      "display_name": "Charles Spurgeon",
+      "directory": "Charles Spurgeon",
+      "primary_seed_voice": "seeds/spurgeon/spurgeon_seed.wav",
+      "alternate_seed_voices": [
+        "seeds/spurgeon/mark_smith_raw.ogg",
+        "seeds/spurgeon/phil_chenevert_raw.mp3"
+      ],
+      "rights_status": "public_domain_candidate",
+      "rights_notes": "Author died in 1892. Verify rights on each source edition before publication.",
+      "source_candidates": [],
+      "pipeline_priority": 1
+    },
+    {
+      "author_id": "finney",
+      "display_name": "Charles Finney",
+      "directory": "Finney",
+      "primary_seed_voice": "seeds/finney/finney_seed.wav",
+      "alternate_seed_voices": [
+        "seeds/finney/bob_neufeld_raw.mp3"
+      ],
+      "rights_status": "public_domain_candidate",
+      "rights_notes": "Author died in 1875. Verify rights on each source edition before publication.",
+      "source_candidates": [],
+      "pipeline_priority": 2
+    },
+    {
+      "author_id": "muller",
+      "display_name": "George Muller",
+      "directory": "George Muller",
+      "primary_seed_voice": "seeds/muller/muller_seed.wav",
+      "alternate_seed_voices": [
+        "seeds/muller/david_barnes_raw.mp3"
+      ],
+      "rights_status": "public_domain_candidate",
+      "rights_notes": "Author died in 1898. Verify rights on each source edition before publication.",
+      "source_candidates": [],
+      "pipeline_priority": 3
+    },
+    {
+      "author_id": "wesley",
+      "display_name": "John Wesley",
+      "directory": "Wesley",
+      "primary_seed_voice": "seeds/wesley/wesley_seed.wav",
+      "alternate_seed_voices": [
+        "seeds/wesley/simon_evers_raw.mp3"
+      ],
+      "rights_status": "public_domain_candidate",
+      "rights_notes": "Author died in 1791. Verify rights on each source edition before publication.",
+      "source_candidates": [],
+      "pipeline_priority": 4
+    },
+    {
+      "author_id": "tozer",
+      "display_name": "A. W. Tozer",
+      "directory": "AW Tozer",
+      "primary_seed_voice": null,
+      "alternate_seed_voices": [],
+      "rights_status": "blocked_pending_permission",
+      "rights_notes": "Author died in 1963. Treat as blocked until permission or a license is documented.",
+      "source_candidates": [],
+      "pipeline_priority": 90
+    },
+    {
+      "author_id": "ravenhill",
+      "display_name": "Leonard Ravenhill",
+      "directory": "Ravenhill",
+      "primary_seed_voice": null,
+      "alternate_seed_voices": [],
+      "rights_status": "blocked_pending_permission",
+      "rights_notes": "Author died in 1994. Treat as blocked until permission or a license is documented.",
+      "source_candidates": [],
+      "pipeline_priority": 91
+    }
+  ]
+}
+

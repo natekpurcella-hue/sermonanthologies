@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sermon Scene Renderer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet"/>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    html, body {
+      width: 1920px;
+      height: 1080px;
+      overflow: hidden;
+      background: #1a0f05;
+    }
+
+    /* ── Scene container ── */
+    #scene-container {
+      position: relative;
+      width: 1920px;
+      height: 1080px;
+      overflow: hidden;
+    }
+
+    #scene-svg {
+      position: absolute;
+      top: 0; left: 0;
+      width: 1920px;
+      height: 1080px;
+    }
+
+    /* ── Caption overlay ── */
+    #caption-zone {
+      position: absolute;
+      top: 95px;
+      left: 40px;
+      width: 820px;
+      height: 350px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      pointer-events: none;
+      z-index: 10;
+    }
+
+    #caption-box {
+      display: inline-block;
+      max-width: 780px;
+      padding: 14px 28px 16px;
+      background: rgba(26, 15, 5, 0.72);
+      border-radius: 6px;
+      border: 1px solid rgba(196, 168, 130, 0.15);
+      opacity: 0;
+      /* Backdrop blur for legibility on complex background */
+      backdrop-filter: blur(2px);
+    }
+
+    #caption-text {
+      font-family: 'Lora', 'Georgia', serif;
+      font-size: 52px;
+      font-weight: 600;
+      line-height: 1.25;
+      color: #f5e6c8;
+      text-align: center;
+      /* Subtle text shadow for depth on the woodcut background */
+      text-shadow:
+        0 2px 8px rgba(0,0,0,0.9),
+        0 0 24px rgba(26, 15, 5, 0.8);
+      letter-spacing: 0.01em;
+    }
+
+    /* Short emphatic phrases (≤4 words) get larger treatment */
+    #caption-text.emphatic {
+      font-size: 68px;
+      font-style: italic;
+      letter-spacing: 0.02em;
+    }
+
+    /* Scripture reference phrases get a warm gold color */
+    #caption-text.scripture {
+      color: #ffd27f;
+      font-style: italic;
+    }
+
+    /* ── Debug overlay (hidden in production) ── */
+    #debug-overlay {
+      display: none;
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      font-family: monospace;
+      font-size: 11px;
+      color: #ffd27f;
+      background: rgba(0,0,0,0.6);
+      padding: 4px 8px;
+      border-radius: 3px;
+      z-index: 100;
+    }
+  </style>
+</head>
+<body>
+<div id="scene-container">
+  <!-- SVG is injected here by the renderer -->
+  %%SVG_CONTENT%%
+
+  <!-- Caption overlay -->
+  <div id="caption-zone">
+    <div id="caption-box">
+      <div id="caption-text"></div>
+    </div>
+  </div>
+
+  <!-- Debug time display -->
+  <div id="debug-overlay" id="time-display">t=0.000</div>
+</div>
+
+<!-- GSAP (loaded from CDN — Puppeteer must be launched with --allow-running-insecure-content
+     OR the renderer pre-fetches GSAP and inlines it) -->
+<script src="%%GSAP_PATH%%"></script>
+<script>
+// ══════════════════════════════════════════════════════════════
+// DATA (injected by render_animated_scene.py)
+// ══════════════════════════════════════════════════════════════
+const CAPTIONS   = %%CAPTIONS_JSON%%;    // [{ start, end, text }, ...]
+const TIMELINE   = %%TIMELINE_JSON%%;    // [{ t, event, intensity? }, ...]
+const TOTAL_DURATION = %%TOTAL_DURATION%%;
+
+// ══════════════════════════════════════════════════════════════
+// DOM REFERENCES
+// ══════════════════════════════════════════════════════════════
+const captionBox  = document.getElementById('caption-box');
+const captionText = document.getElementById('caption-text');
+const debugEl     = document.getElementById('debug-overlay');
+
+// Spurgeon element refs
+const sBODY  = document.getElementById('spurgeon-body');
+const sHEAD  = document.getElementById('spurgeon-head');
+const sARMR  = document.getElementById('spurgeon-arm-right');
+const sARML  = document.getElementById('spurgeon-arm-left');
+
+// Congregation refs
+const sCONG = document.getElementById('congregation-group');
+
+// ══════════════════════════════════════════════════════════════
+// GSAP SETUP — set defaults
+// ══════════════════════════════════════════════════════════════
+const existingElems = [sBODY, sHEAD, sARMR, sARML].filter(el => el != null);
+if (existingElems.length > 0) {
+  gsap.set(existingElems, { transformOrigin: 'inherit' });
+}
+gsap.set(captionBox, { opacity: 0 });
+
+// ══════════════════════════════════════════════════════════════
+// IDLE ANIMATIONS (looping, always running)
+// These run on a wall-clock ticker separate from seekToTime()
+// because they need to feel continuous and organic.
+// ══════════════════════════════════════════════════════════════
+
+// Body idle sway: ±2° on 3.2s loop
+if (sBODY) {
+  gsap.to(sBODY, {
+    rotation: 0.8,
+    duration: 4.0,
+    ease: 'sine.inOut',
+    repeat: -1,
+    yoyo: true,
+    transformOrigin: '50% 100%',
+  });
+}
+
+// Head counter-sway (slight, creates organic feel)
+if (sHEAD) {
+  gsap.to(sHEAD, {
+    rotation: -0.5,
+    y: -1,
+    duration: 4.5,
+    ease: 'sine.inOut',
+    repeat: -1,
+    yoyo: true,
+    transformOrigin: '50% 100%',
+  });
+}
+
+// Congregation sway: single group sway for PNG layer
+if (sCONG) {
+  gsap.to(sCONG, {
+    rotation: 0.5,
+    duration: 6.0,
+    ease: 'sine.inOut',
+    repeat: -1,
+    yoyo: true,
+    transformOrigin: '50% 100%',
+  });
+}
+
+// Left arm subtle breathing motion (resting on pulpit)
+if (sARML) {
+  gsap.to(sARML, {
+    y: 2,
+    duration: 3.0,
+    ease: 'sine.inOut',
+    repeat: -1,
+    yoyo: true,
+  });
+}
+
+// ══════════════════════════════════════════════════════════════
+// EVENT-DRIVEN ANIMATIONS
+// Triggered by seekToTime() based on TIMELINE data
+// ══════════════════════════════════════════════════════════════
+
+let lastLeanTime    = -999;
+let lastArmRaiseTime = -999;
+let armIsRaised     = false;
+
+function triggerLean() {
+  if (!sBODY) return;
+  // Spurgeon leans forward at sentence boundary
+  gsap.to(sBODY, {
+    y: 3,
+    rotation: 1.5,
+    duration: 0.8,
+    ease: 'power2.inOut',
+    overwrite: 'auto',
+    onComplete: () => {
+      gsap.to(sBODY, {
+        y: 0,
+        rotation: 0.8, // return to idle sway position
+        duration: 1.5,
+        ease: 'power2.inOut',
+        overwrite: 'auto',
+      });
+    },
+    transformOrigin: '50% 100%',
+  });
+}
+
+function triggerArmRaise(intensity) {
+  if (armIsRaised || !sARMR) return;
+  armIsRaised = true;
+
+  // Scale raise angle with intensity (0.0–1.0)
+  const angle = -25 - (intensity * 20); // -25° to -45°
+  const raiseY = -20 - (intensity * 15);
+
+  gsap.to(sARMR, {
+    rotation: angle,
+    y: raiseY,
+    duration: 0.38,
+    ease: 'power2.out',
+    overwrite: 'auto',
+    onComplete: () => {
+      // Hold briefly at raised position
+      gsap.to(sARMR, {
+        rotation: 0,
+        y: 0,
+        duration: 0.85,
+        ease: 'power2.inOut',
+        delay: 0.4,
+        overwrite: false,
+        onComplete: () => { armIsRaised = false; },
+      });
+    },
+    transformOrigin: '50% 0%', // shoulder-up rotation
+  });
+
+  // Head nods forward slightly on arm raise
+  if (sHEAD) {
+    gsap.to(sHEAD, {
+      y: 5,
+      rotation: 3,
+      duration: 0.3,
+      ease: 'power2.out',
+      overwrite: 'auto',
+      onComplete: () => {
+        gsap.to(sHEAD, {
+          y: 0,
+          rotation: 0,
+          duration: 0.7,
+          ease: 'power2.inOut',
+          delay: 0.5,
+          overwrite: false,
+        });
+      },
+      transformOrigin: '50% 100%',
+    });
+  }
+}
+
+// ══════════════════════════════════════════════════════════════
+// CAPTION SYSTEM
+// ══════════════════════════════════════════════════════════════
+
+let currentCapIdx   = -1;
+let captionTimeline = null;
+
+function showCaption(text) {
+  // Kill any running caption animation
+  if (captionTimeline) captionTimeline.kill();
+
+  // Classify phrase type
+  const wordCount = text.trim().split(/\s+/).length;
+  const isScripture = /\d:\d|verse|chapter|psalm|proverb|john|romans|genesis/i.test(text);
+  captionText.className = '';
+  if (isScripture) captionText.classList.add('scripture');
+  else if (wordCount <= 4) captionText.classList.add('emphatic');
+
+  captionText.textContent = text;
+
+  captionTimeline = gsap.timeline();
+  captionTimeline
+    .to(captionBox, { opacity: 0, duration: 0.15, ease: 'power2.in' })
+    .set(captionBox, {})
+    .to(captionBox, { opacity: 1, duration: 0.3, ease: 'power2.out' });
+}
+
+function hideCaption() {
+  if (captionTimeline) captionTimeline.kill();
+  captionTimeline = gsap.to(captionBox, {
+    opacity: 0,
+    duration: 0.3,
+    ease: 'power2.in',
+  });
+}
+
+// ══════════════════════════════════════════════════════════════
+// SEEK — called by Puppeteer for each frame
+// t = current time in seconds
+// ══════════════════════════════════════════════════════════════
+let lastEventIdx = 0;
+
+window.seekToTime = function(t) {
+  // ── Captions ──────────────────────────────────
+  let activeCaption = null;
+  for (let i = 0; i < CAPTIONS.length; i++) {
+    const cap = CAPTIONS[i];
+    if (t >= cap.start && t < cap.end) {
+      activeCaption = { idx: i, cap };
+      break;
+    }
+  }
+
+  if (activeCaption) {
+    if (activeCaption.idx !== currentCapIdx) {
+      currentCapIdx = activeCaption.idx;
+      showCaption(activeCaption.cap.text);
+    }
+  } else {
+    if (currentCapIdx !== -1) {
+      currentCapIdx = -1;
+      hideCaption();
+    }
+  }
+
+  // ── Timeline events ───────────────────────────
+  // Check for events that fire at this time
+  for (let i = lastEventIdx; i < TIMELINE.length; i++) {
+    const ev = TIMELINE[i];
+    if (ev.t > t + 0.1) break; // ahead — stop scanning
+    if (ev.t >= t - 0.1 && ev.t <= t + 0.1) {
+      // Event is within ±100ms of current frame
+      if (ev.event === 'lean' && (t - lastLeanTime) > 1.5) {
+        lastLeanTime = t;
+        triggerLean();
+      }
+      if (ev.event === 'arm_raise' && (t - lastArmRaiseTime) > 2.0) {
+        lastArmRaiseTime = t;
+        triggerArmRaise(ev.intensity || 0.5);
+      }
+      lastEventIdx = i + 1;
+    }
+  }
+
+  // Debug
+  if (debugEl.style.display !== 'none') {
+    debugEl.textContent = `t=${t.toFixed(3)}s | cap=${currentCapIdx} | ev=${lastEventIdx}`;
+  }
+};
+
+// ── Preview mode (non-Puppeteer) ──────────────────────────────
+// When loaded in a browser directly, auto-plays for review.
+if (!window._PUPPETEER_MODE) {
+  let previewT = 0;
+  const previewFPS = 24;
+  const previewInterval = setInterval(() => {
+    previewT += 1 / previewFPS;
+    if (previewT > TOTAL_DURATION) {
+      clearInterval(previewInterval);
+      return;
+    }
+    window.seekToTime(previewT);
+  }, 1000 / previewFPS);
+}
+</script>
+</body>
+</html>

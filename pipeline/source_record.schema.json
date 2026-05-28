@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.sermons/pipeline/source_record.schema.json",
+  "title": "Source Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "source_id",
+    "author_id",
+    "source_url",
+    "format",
+    "rights_status",
+    "status"
+  ],
+  "properties": {
+    "source_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "author_id": {
+      "type": "string"
+    },
+    "source_url": {
+      "type": "string"
+    },
+    "format": {
+      "type": "string",
+      "enum": ["html", "epub", "pdf", "txt", "ocr"]
+    },
+    "rights_status": {
+      "type": "string",
+      "enum": ["public_domain", "licensed", "permissioned", "unknown", "blocked"]
+    },
+    "rights_notes": {
+      "type": ["string", "null"]
+    },
+    "retrieval_date": {
+      "type": ["string", "null"],
+      "format": "date-time"
+    },
+    "checksum": {
+      "type": ["string", "null"]
+    },
+    "adapter_name": {
+      "type": ["string", "null"]
+    },
+    "status": {
+      "type": "string",
+      "enum": ["candidate", "retrieved", "normalized", "failed", "processed"]
+    },
+    "error_log": {
+      "type": ["string", "null"]
+    }
+  }
+}
